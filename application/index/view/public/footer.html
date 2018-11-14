@@ -1,0 +1,26 @@
+<!--_footer 作为公共模版分离出去-->
+<footer class="footer mt-20">
+	<div class="container-fluid">
+		<nav> <a href="#" target="_blank">关于我们</a> <span class="pipe">|</span> <a href="#" target="_blank">联系我们</a> <span class="pipe">|</span> <a href="#" target="_blank">法律声明</a> </nav>
+		<p>Copyright &copy;暂无 <br>
+			<a href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow">暂无备案</a><br>
+		</p>
+	</div>
+</footer>
+{load href="__STATIC__/lib/jquery/1.9.1/jquery.min.js"} 
+{load href="__STATIC__/lib/layer/2.4/layer.js"}
+{load href="__STATIC__/static/h-ui/js/H-ui.js"} 
+{load href="__STATIC__/static/h-ui.admin/js/H-ui.admin.page.js"} 
+{load href="__STATIC__/static/h-ui/js/main.js"} 
+{load href="__STATIC__/lib/My97DatePicker/4.8/WdatePicker.js"}
+{load href="__STATIC__/lib/datatables/1.10.0/jquery.dataTables.min.js"}
+{load href="__STATIC__/lib/laypage/1.2/laypage.js"}
+{load href="__STATIC__/lib/laypage/1.2/laypage.js"}
+{load href="__STATIC__/lib/jquery.media/jquery.media.js"}
+<script>
+function admin_edit(title,url,id,w,h){
+    $.get(url,{id:id}); //执行控制器中的编辑操作
+	layer_show(title,url,w,h);
+}
+</script>
+<!--/_footer /作为公共模版分离出去-->

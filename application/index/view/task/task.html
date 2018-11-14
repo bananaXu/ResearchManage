@@ -1,0 +1,105 @@
+{extend name='public/base' /}
+
+{block name='seo'}
+<title>{$title|default='任务进度'}</title>
+<meta name="keywords" content="{$keywords|default='页面关键字'}">
+<meta name="description" content="{$desc|default='页面描述'}">
+{/block}
+
+{block name='content'}
+<div class="container" style="width: 960px; background-color: white; min-height: 700px;">
+	<form action="{:url('task/taskList')}" method="get">
+		<div class="cl pd-5 bg-1 bk-gray mt-0">
+			<span class="l">
+			<a href="javascript:;" onclick="addTasks('任务信息','{:url(\"task/taskAdd\")}','800','500')" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe637;</i> 任务发起</a>
+			</span>
+		</div>
+	</form>
+	<div class="mt-5">
+		<table class="table table-border table-bordered table-bg table-hover table-sort">
+			<thead>
+				<tr class="text-c">
+					<th width="40">ID</th>
+					<th width="100">名称</th>
+					<th width="100">描述</th>
+					<th width="80">负责人</th>
+					<th width="80">创建时间</th>
+					<th width="80">预完成时间</th>
+					<th width="80">当前状态</th>
+					<th width="90">更新时间</th>
+					<th width="60">操作</th>
+				</tr>
+			</thead>
+			<tbody>
+			{volist name="arrylist" id="vo"}
+				<tr class="text-c">
+					<td>{$vo.id}</td>
+					<td><a href='/index/task/taskDetail.html?task_id={$vo.id}'>{$vo.title}</a></td>
+					<td>{$vo.desc}</td>
+					<td>{$vo.principal}</td>
+					<td><?php echo substr($vo['ctime'], 0, 10); ?></td>
+					<td><?php echo substr($vo['estimatedTime'], 0, 10); ?></td>
+					<td class="td-status">	
+						{if condition="$vo.state eq 0"}
+						<span class="label label-success radius">其他</span>
+						{elseif condition="$vo.state eq 1" /}
+						<span class="label label-success radius">发起</span>
+						{elseif condition="$vo.state eq 2" /}
+						<span class="label label-success radius">进行中</span>
+						{elseif condition="$vo.state eq 3" /}
+						<span class="label label-success radius">已完成</span>
+						{/if}
+					</td>
+					<td><?php echo substr($vo['updatetime'], 0, 16); ?></td>
+					<td class="td-manage">
+						{if condition="$vo.principal eq $Think.session.user_info.realname"}
+						<a title="任务跟进" href="javascript:;" onclick="task_edit('任务跟进','{:url("task/taskEdit",["id"=>$vo["id"]])}','1','800','500')" class="text-decoration:none"><i class="Hui-iconfont">&#xe63d;</i></a>
+						&nbsp;
+						{/if}
+						<a title="下载" href="/index/task/downloadfile.html?filename={$vo.resource}" class="text-decoration:none"><i class="Hui-iconfont">&#xe640;</i></a>&nbsp;
+						<a title="预览" href="javascript:;" onclick="Media('资料预览','/index/download/media/fileName/<?php echo str_replace(".".substr(strrchr($vo['resource'], '.'), 1),"",$vo['resource']);?>/fileType/<?php echo substr(strrchr($vo['resource'], '.'), 1); ?>','1','900','600')" class="text-decoration:none"><i class="Hui-iconfont">&#xe695;</i></a>
+					</td>
+				</tr>
+			{/volist}
+			</tbody>
+		</table>
+		
+		<form action="" method="post" id="downloadfilesform" style="display:none">
+			<input type="hidden" name="files" id="downloadfilesfiles" value="upload/tmp.zip" />
+		</form>
+	</div>
+	<br />
+	<br />
+</div>
+{/block}
+
+{block name='js'}
+<script type="text/javascript">
+$("#task").attr('class', 'active');
+$('.table-sort').dataTable({
+	"aaSorting": [[ 6, "desc" ]],//默认第几个排序
+	"bStateSave": true,//状态保存
+	"searching": false,//是否显示查询
+    "lengthChange": false,//是否使用下位列表选择分页大小
+	"aoColumnDefs": [
+		//{"bVisible": false, "aTargets": [ 3 ]} //控制列的隐藏显示
+		{"orderable":false,"aTargets":[2, 8]}// 不参与排序的列
+	]
+});
+
+function addTasks(title,url,w,h)
+{
+	$.post(url);
+	layer_show(title,url,w,h);
+}
+function task_edit(title,url,id,w,h)
+{
+	$.get(url,{id:id});
+	layer_show(title,url,w,h);
+}
+function Media(title,url,fileName,w,h){
+    $.get(url,{fileName:fileName});
+	layer_show(title,url,w,h);
+}
+</script>
+{/block}

@@ -1,0 +1,718 @@
+---------------------------------------------------------------
+[ 2018-11-08T00:20:33+08:00 ] 47.97.10.19 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001662s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000825s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000605s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000353s ]
+---------------------------------------------------------------
+[ 2018-11-08T01:01:14+08:00 ] 50.118.255.36 GET http://www.ejiar.cn/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001718s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000899s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000646s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000386s ]
+---------------------------------------------------------------
+[ 2018-11-08T01:01:14+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001570s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000546s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000369s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000374s ]
+---------------------------------------------------------------
+[ 2018-11-08T01:33:58+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001359s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000776s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000615s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[ 2018-11-08T02:02:04+08:00 ] 50.118.255.36 GET http://fr.cyberpods.net/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001705s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000836s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000620s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000396s ]
+---------------------------------------------------------------
+[ 2018-11-08T02:02:05+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001475s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000526s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000360s ]
+---------------------------------------------------------------
+[ 2018-11-08T02:30:20+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001286s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000881s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000621s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000372s ]
+---------------------------------------------------------------
+[ 2018-11-08T02:30:22+08:00 ] 125.211.31.134 GET http://api.ipify.org/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001641s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000536s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000405s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000435s ]
+---------------------------------------------------------------
+[ 2018-11-08T02:55:46+08:00 ] 220.175.54.110 GET http://www.epochtimes.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001533s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000526s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000369s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000358s ]
+---------------------------------------------------------------
+[ 2018-11-08T02:55:46+08:00 ] 125.76.61.53 GET http://www.minghui.org/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001276s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000532s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000380s ]
+---------------------------------------------------------------
+[ 2018-11-08T02:55:47+08:00 ] 123.160.233.114 GET http://www.123cha.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001247s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000525s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2018-11-08T02:55:50+08:00 ] 36.5.184.101 GET http://www.ip.cn/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001282s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000532s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000408s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2018-11-08T02:55:50+08:00 ] 101.249.219.102 CONNECT cn.bing.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001399s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000530s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000428s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000386s ]
+---------------------------------------------------------------
+[ 2018-11-08T02:55:51+08:00 ] 1.80.68.64 CONNECT www.voanews.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001275s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000573s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000397s ]
+---------------------------------------------------------------
+[ 2018-11-08T02:55:53+08:00 ] 124.235.138.66 GET http://www.wujieliulan.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001314s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000529s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000382s ]
+---------------------------------------------------------------
+[ 2018-11-08T02:55:53+08:00 ] 221.11.228.156 GET http://boxun.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001497s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000551s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000369s ]
+---------------------------------------------------------------
+[ 2018-11-08T02:55:55+08:00 ] 1.30.8.66 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001243s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000508s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000368s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000364s ]
+---------------------------------------------------------------
+[ 2018-11-08T03:00:34+08:00 ] 50.118.255.36 CONNECT www.alipay.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001398s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000810s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000671s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000444s ]
+---------------------------------------------------------------
+[ 2018-11-08T03:00:34+08:00 ] 124.88.55.42 GET http://www.123cha.com
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001400s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000564s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000384s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000873s ]
+---------------------------------------------------------------
+[ 2018-11-08T03:37:42+08:00 ] 93.170.219.168 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001522s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000799s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000588s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000364s ]
+---------------------------------------------------------------
+[ 2018-11-08T04:29:56+08:00 ] 212.37.83.131 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001439s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000850s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000670s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000405s ]
+---------------------------------------------------------------
+[ 2018-11-08T05:20:38+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001371s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000822s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000659s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000418s ]
+---------------------------------------------------------------
+[ 2018-11-08T05:20:40+08:00 ] 221.234.236.208 GET http://api.ipify.org/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001307s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000535s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000410s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000401s ]
+---------------------------------------------------------------
+[ 2018-11-08T05:26:55+08:00 ] 116.252.0.36 GET http://boxun.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001482s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000525s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000422s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000380s ]
+---------------------------------------------------------------
+[ 2018-11-08T05:26:55+08:00 ] 221.11.230.0 GET http://www.ip.cn/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001322s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000516s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000373s ]
+---------------------------------------------------------------
+[ 2018-11-08T05:26:58+08:00 ] 116.252.0.69 GET http://www.minghui.org/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001327s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000616s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000445s ]
+---------------------------------------------------------------
+[ 2018-11-08T05:27:00+08:00 ] 124.235.138.226 GET http://www.123cha.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001269s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000541s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000398s ]
+---------------------------------------------------------------
+[ 2018-11-08T05:27:01+08:00 ] 171.34.218.207 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001237s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000566s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000433s ]
+---------------------------------------------------------------
+[ 2018-11-08T05:27:03+08:00 ] 27.211.182.197 GET http://www.epochtimes.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001281s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000765s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000384s ]
+---------------------------------------------------------------
+[ 2018-11-08T05:27:04+08:00 ] 124.88.64.212 CONNECT cn.bing.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001468s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000521s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000347s ]
+---------------------------------------------------------------
+[ 2018-11-08T05:27:04+08:00 ] 123.144.29.230 CONNECT www.voanews.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001258s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000534s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000386s ]
+---------------------------------------------------------------
+[ 2018-11-08T05:27:05+08:00 ] 36.5.183.131 GET http://www.wujieliulan.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001328s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000545s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[ 2018-11-08T05:38:46+08:00 ] 60.191.38.77 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001469s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000843s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000665s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000417s ]
+---------------------------------------------------------------
+[ 2018-11-08T06:18:15+08:00 ] 50.118.255.36 GET http://proxyjudge.us/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001656s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000807s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000604s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000374s ]
+---------------------------------------------------------------
+[ 2018-11-08T06:18:16+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001508s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000529s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000360s ]
+---------------------------------------------------------------
+[ 2018-11-08T06:43:38+08:00 ] 12.235.205.10 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001433s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000805s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000634s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2018-11-08T06:47:17+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001497s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000547s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000386s ]
+---------------------------------------------------------------
+[ 2018-11-08T07:17:35+08:00 ] 50.118.255.36 GET http://www.ejiar.cn/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001725s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000872s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000661s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000436s ]
+---------------------------------------------------------------
+[ 2018-11-08T07:17:36+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001716s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000757s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000431s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000503s ]
+---------------------------------------------------------------
+[ 2018-11-08T07:41:20+08:00 ] 60.191.52.254 HEAD http://112.124.42.80:63435/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001525s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000810s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000789s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000539s ]
+---------------------------------------------------------------
+[ 2018-11-08T08:16:52+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001354s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000860s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000642s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[ 2018-11-08T08:27:02+08:00 ] 201.76.112.135 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001557s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000578s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000440s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000432s ]
+---------------------------------------------------------------
+[ 2018-11-08T09:14:24+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001344s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000809s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000647s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000384s ]
+---------------------------------------------------------------
+[ 2018-11-08T09:21:25+08:00 ] 47.88.153.100 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001523s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000512s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000365s ]
+---------------------------------------------------------------
+[ 2018-11-08T09:36:58+08:00 ] 94.124.17.30 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001710s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000836s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000690s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[ 2018-11-08T10:40:28+08:00 ] 50.118.255.36 CONNECT www.alipay.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001548s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.001097s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000671s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000355s ]
+---------------------------------------------------------------
+[ 2018-11-08T10:48:44+08:00 ] 23.236.57.135 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001748s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000538s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000358s ]
+---------------------------------------------------------------
+[ 2018-11-08T11:08:28+08:00 ] 50.118.255.36 CONNECT www.alipay.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001513s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000956s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000775s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.002938s ]
+---------------------------------------------------------------
+[ 2018-11-08T11:39:35+08:00 ] 50.118.255.36 GET http://fr.cyberpods.net/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001739s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000818s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000608s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000375s ]
+---------------------------------------------------------------
+[ 2018-11-08T11:39:35+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001336s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000548s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000397s ]
+---------------------------------------------------------------
+[ 2018-11-08T12:42:36+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001600s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000860s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000636s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000409s ]
+---------------------------------------------------------------
+[ 2018-11-08T13:46:55+08:00 ] 50.118.255.36 GET http://www.ejiar.cn/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001694s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000838s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000624s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000368s ]
+---------------------------------------------------------------
+[ 2018-11-08T13:46:56+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001444s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000535s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000527s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000364s ]
+---------------------------------------------------------------
+[ 2018-11-08T14:16:57+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001427s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000828s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000680s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000393s ]
+---------------------------------------------------------------
+[ 2018-11-08T14:22:00+08:00 ] 124.41.214.57 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001748s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000664s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000428s ]
+---------------------------------------------------------------
+[ 2018-11-08T16:07:06+08:00 ] 50.118.255.36 CONNECT www.alipay.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001353s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000796s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000624s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000394s ]
+---------------------------------------------------------------
+[ 2018-11-08T16:07:17+08:00 ] 123.179.5.154 GET http://api.ipify.org/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001282s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000529s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000376s ]
+---------------------------------------------------------------
+[ 2018-11-08T16:10:32+08:00 ] 150.255.87.97 GET http://boxun.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001499s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000561s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[ 2018-11-08T16:10:33+08:00 ] 221.11.231.239 CONNECT cn.bing.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001600s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000556s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000381s ]
+---------------------------------------------------------------
+[ 2018-11-08T16:10:34+08:00 ] 1.202.82.156 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001584s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000549s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000435s ]
+---------------------------------------------------------------
+[ 2018-11-08T16:10:36+08:00 ] 101.249.185.220 GET http://www.epochtimes.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001809s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000561s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000808s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000560s ]
+---------------------------------------------------------------
+[ 2018-11-08T16:10:36+08:00 ] 117.13.170.77 CONNECT www.voanews.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001562s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000557s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000411s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000387s ]
+---------------------------------------------------------------
+[ 2018-11-08T16:10:37+08:00 ] 122.96.129.38 GET http://www.minghui.org/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001305s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000531s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000375s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000405s ]
+---------------------------------------------------------------
+[ 2018-11-08T16:10:38+08:00 ] 112.112.86.113 GET http://www.wujieliulan.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001264s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000554s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000401s ]
+---------------------------------------------------------------
+[ 2018-11-08T16:10:38+08:00 ] 125.76.61.73 GET http://www.123cha.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001286s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000547s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000399s ]
+---------------------------------------------------------------
+[ 2018-11-08T16:10:38+08:00 ] 36.32.3.30 GET http://www.ip.cn/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001554s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000558s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000431s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000397s ]
+---------------------------------------------------------------
+[ 2018-11-08T16:17:29+08:00 ] 92.26.39.142 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001702s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000550s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000401s ]
+---------------------------------------------------------------
+[ 2018-11-08T16:33:26+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001431s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000863s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000648s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000389s ]
+---------------------------------------------------------------
+[ 2018-11-08T18:02:53+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001448s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000791s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000611s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000355s ]
+---------------------------------------------------------------
+[ 2018-11-08T18:17:36+08:00 ] 218.69.131.19 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001851s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000576s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000376s ]
+---------------------------------------------------------------
+[ 2018-11-08T18:34:01+08:00 ] 50.118.255.36 CONNECT www.alipay.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001400s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000814s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000637s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000382s ]
+---------------------------------------------------------------
+[ 2018-11-08T18:37:21+08:00 ] 218.92.225.159 OPTIONS /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001647s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000524s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000380s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000385s ]
+[ error ] [4]语法错误: unexpected end of file
+---------------------------------------------------------------
+[ 2018-11-08T18:37:25+08:00 ] 218.92.225.159 POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[ error ] [4]语法错误: unexpected end of file
+---------------------------------------------------------------
+[ 2018-11-08T19:04:44+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001317s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000802s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000637s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[ 2018-11-08T19:04:47+08:00 ] 84.20.83.10 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001456s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000528s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000420s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000365s ]
+---------------------------------------------------------------
+[ 2018-11-08T20:04:06+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001455s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000866s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000694s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000409s ]
+---------------------------------------------------------------
+[ 2018-11-08T20:04:08+08:00 ] 58.248.201.146 GET http://api.ipify.org/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001329s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000561s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000380s ]
+---------------------------------------------------------------
+[ 2018-11-08T20:04:09+08:00 ] 222.82.63.105 GET http://www.minghui.org/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001293s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000541s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000411s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2018-11-08T20:04:09+08:00 ] 117.89.74.132 CONNECT www.voanews.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001418s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000585s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000440s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000433s ]
+---------------------------------------------------------------
+[ 2018-11-08T20:04:10+08:00 ] 113.128.105.144 GET http://www.wujieliulan.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001470s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000546s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000389s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000371s ]
+---------------------------------------------------------------
+[ 2018-11-08T20:04:12+08:00 ] 117.89.75.214 GET http://www.123cha.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001537s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000542s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000440s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000391s ]
+---------------------------------------------------------------
+[ 2018-11-08T20:04:12+08:00 ] 106.14.63.16 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001411s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000547s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000428s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000391s ]
+---------------------------------------------------------------
+[ 2018-11-08T20:04:14+08:00 ] 101.68.127.133 GET http://www.ip.cn/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001571s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000559s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000553s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000387s ]
+---------------------------------------------------------------
+[ 2018-11-08T20:04:15+08:00 ] 119.118.4.96 GET http://boxun.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001456s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000553s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000395s ]
+---------------------------------------------------------------
+[ 2018-11-08T20:04:15+08:00 ] 182.138.214.86 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001309s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000526s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000382s ]
+---------------------------------------------------------------
+[ 2018-11-08T20:04:16+08:00 ] 182.245.42.89 GET http://www.epochtimes.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001330s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000584s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000432s ]
+---------------------------------------------------------------
+[ 2018-11-08T20:04:17+08:00 ] 182.245.43.15 CONNECT cn.bing.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001570s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000543s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000380s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2018-11-08T20:33:47+08:00 ] 50.118.255.36 GET http://www.ejiar.cn/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001496s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000791s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000596s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000352s ]
+---------------------------------------------------------------
+[ 2018-11-08T20:33:48+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001576s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000549s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000381s ]
+---------------------------------------------------------------
+[ 2018-11-08T21:05:01+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001376s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000916s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000659s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000414s ]
+---------------------------------------------------------------
+[ 2018-11-08T21:05:02+08:00 ] 106.45.9.83 GET http://www.123cha.com
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001410s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000527s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000359s ]
+---------------------------------------------------------------
+[ 2018-11-08T21:05:02+08:00 ] 124.127.223.106 GET http://api.ipify.org/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001565s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000519s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000378s ]
+---------------------------------------------------------------
+[ 2018-11-08T21:05:40+08:00 ] 220.250.62.6 GET http://www.wujieliulan.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001479s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000542s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000401s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000378s ]
+---------------------------------------------------------------
+[ 2018-11-08T21:05:43+08:00 ] 182.200.6.201 GET http://www.123cha.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001321s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000557s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000426s ]
+---------------------------------------------------------------
+[ 2018-11-08T21:05:44+08:00 ] 14.204.127.167 GET http://www.ip.cn/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001528s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000566s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000380s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000395s ]
+---------------------------------------------------------------
+[ 2018-11-08T21:05:45+08:00 ] 121.57.10.63 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001487s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000604s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000483s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000441s ]
+---------------------------------------------------------------
+[ 2018-11-08T21:05:45+08:00 ] 118.81.224.142 GET http://www.epochtimes.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001375s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000586s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000417s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000433s ]
+---------------------------------------------------------------
+[ 2018-11-08T21:05:47+08:00 ] 36.106.87.82 GET http://boxun.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001306s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000553s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000412s ]
+---------------------------------------------------------------
+[ 2018-11-08T21:05:48+08:00 ] 223.166.74.151 CONNECT www.voanews.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001363s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000587s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000414s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000442s ]
+---------------------------------------------------------------
+[ 2018-11-08T21:05:48+08:00 ] 124.225.44.167 CONNECT cn.bing.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001363s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000579s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000445s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000434s ]
+---------------------------------------------------------------
+[ 2018-11-08T21:05:48+08:00 ] 113.206.197.212 GET http://www.minghui.org/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001357s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000586s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000480s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000446s ]
+---------------------------------------------------------------
+[ 2018-11-08T21:29:53+08:00 ] 187.33.166.153 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001887s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.001192s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000855s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000537s ]
+---------------------------------------------------------------
+[ 2018-11-08T21:36:18+08:00 ] 50.118.255.36 GET http://www.ejiar.cn/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001446s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000561s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000414s ]
+---------------------------------------------------------------
+[ 2018-11-08T21:36:19+08:00 ] 50.118.255.36 CONNECT www.alipay.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001695s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000525s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000380s ]
+---------------------------------------------------------------
+[ 2018-11-08T22:10:17+08:00 ] 50.118.255.36 CONNECT www.alipay.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001533s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.001023s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000706s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000442s ]
+---------------------------------------------------------------
+[ 2018-11-08T22:19:11+08:00 ] 27.123.223.202 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001407s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000519s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[ 2018-11-08T22:31:38+08:00 ] 68.183.115.63 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001439s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000838s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000669s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000404s ]
+---------------------------------------------------------------
+[ 2018-11-08T22:32:06+08:00 ] 31.148.121.234 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001463s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000525s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000357s ]
+---------------------------------------------------------------
+[ 2018-11-08T22:42:10+08:00 ] 50.118.255.36 GET http://fr.cyberpods.net/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001500s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000547s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000395s ]
+---------------------------------------------------------------
+[ 2018-11-08T22:42:10+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001245s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000522s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000377s ]
+---------------------------------------------------------------
+[ 2018-11-08T23:34:50+08:00 ] 186.136.246.237 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001410s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000813s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000630s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2018-11-08T23:48:13+08:00 ] 123.160.175.55 GET http://www.123cha.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.048844s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.002518s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000758s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000735s ]
+---------------------------------------------------------------
+[ 2018-11-08T23:48:13+08:00 ] 123.160.175.55 GET http://www.baidu.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003738s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.001152s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000674s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.008120s ]
+---------------------------------------------------------------
+[ 2018-11-08T23:48:13+08:00 ] 123.160.175.55 GET http://www.bing.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001356s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000572s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000384s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000423s ]
+---------------------------------------------------------------
+[ 2018-11-08T23:48:13+08:00 ] 123.160.175.55 GET http://www.boxun.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001452s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000563s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000412s ]
+---------------------------------------------------------------
+[ 2018-11-08T23:48:13+08:00 ] 123.160.175.55 CONNECT www.voanews.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001463s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000556s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000389s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000421s ]
+---------------------------------------------------------------
+[ 2018-11-08T23:48:13+08:00 ] 123.160.175.55 GET http://www.rfa.org/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001518s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000582s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000380s ]
+---------------------------------------------------------------
+[ 2018-11-08T23:48:13+08:00 ] 123.160.175.55 GET http://wujieliulan.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001821s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000556s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000414s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[ 2018-11-08T23:48:13+08:00 ] 123.160.175.55 GET http://www.minghui.org/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001446s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000568s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000419s ]
+---------------------------------------------------------------
+[ 2018-11-08T23:48:13+08:00 ] 123.160.175.55 GET http://www.epochtimes.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001325s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000521s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000543s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000466s ]

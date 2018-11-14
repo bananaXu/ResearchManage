@@ -1,0 +1,81 @@
+---------------------------------------------------------------
+[ 2018-09-30T12:50:42+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] pt5.com/index/index/index.html [运行时间：0.716530s][吞吐率：1.40req/s] [内存消耗：1,736.66kb] [文件加载：49]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\pt5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pt5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\myphp_www\PHPTutorial\WWW\pt5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\pt5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-30T12:50:42+08:00 ] 127.0.0.1 GET /index/index/index.html
+[ info ] pt5.com/index/index/index.html [运行时间：0.069771s][吞吐率：14.33req/s] [内存消耗：1,736.49kb] [文件加载：49]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\pt5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pt5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://pt5.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\myphp_www\PHPTutorial\WWW\pt5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\pt5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-30T12:50:43+08:00 ] 127.0.0.1 GET /static/img/slider1.jpg
+[ info ] pt5.com/static/img/slider1.jpg [运行时间：0.110064s][吞吐率：9.09req/s] [内存消耗：1,446.58kb] [文件加载：43]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\pt5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'img',
+    2 => 'slider1.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pt5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://pt5.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

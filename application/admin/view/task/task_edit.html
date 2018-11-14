@@ -1,0 +1,84 @@
+{extend name='public/base'/}
+{block name='header'}{/block} {//关掉头部}
+{block name='menu'}{/block} {//关掉菜单}
+{block name='seo'}
+<title>{$title|default="标题"}</title>
+<meta name="keywords" content="{$keywords|default='关键字'}">
+<meta name="description" content="{$desc|default='描述'}">
+{/block}
+
+{block name='content'}
+<article class="cl pd-20">
+
+	<form action="{:url("admin/task/editTask")}", method="post" enctype="multipart/form-data" target="nm_iframe" class="form form-horizontal" id="form-task-edit">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>名称：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input  type="text" class="input-text disabled" value="{$task_info.title}" placeholder="" id="title" name="title">
+			</div>
+		</div>		
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>创建人：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input  type="text" class="input-text disabled" value="{$task_info.creator}" placeholder="" id="creator" name="creator">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>创建时间：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input  type="text" class="input-text disabled" value="{$task_info.ctime}" placeholder="" id="ctime" name="ctime">
+			</div>
+		</div>	
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>当前状态：</label>
+			<div class="formControls col-xs-8 col-sm-9"> <span class="select-box" style="width:80px;">
+				<select class="select" name="state" size="1">
+					<option value="0"<?php if($task_info['state'] == 0){echo 'selected="selected"';} ?>>其他</option>
+					<option value="1"<?php if($task_info['state'] == 1){echo 'selected="selected"';} ?>>发起</option>
+					<option value="2"<?php if($task_info['state'] == 2){echo 'selected="selected"';} ?>>进行中</option>
+					<option value="3"<?php if($task_info['state'] == 3){echo 'selected="selected"';} ?>>验收</option>
+					<option value="4"<?php if($task_info['state'] == 4){echo 'selected="selected"';} ?>>已完成</option>
+				</select>
+				</span>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3">文件选择：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<span class="btn-upload form-group">
+				  <input class="input-text upload-url radius" type="text" name="uploadfile-1" id="uploadfile-1" readonly><a href="javascript:void();" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe642;</i> 浏览文件</a>
+				  <input type="file" multiple name="myFile" class="input-file">
+				</span>
+			</div>
+		</div>	
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3">进度描述：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<textarea type="text" class="textarea radius" placeholder="请输入任务描述..." id="desc" name="desc"></textarea>
+			</div>
+		</div>	
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+				<input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;" id="submit" >
+			</div>
+		</div>
+		<input type="hidden" value="{$task_info.id}" name="id">
+	</form>
+	<iframe id="id_iframe" name="nm_iframe" style="display:none;"> </iframe>
+</article>
+{/block}
+
+{block name='js'}
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/jquery.validate.js"></script> 
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/validate-methods.js"></script> 
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+<script id="jquery_172" type="text/javascript" class="library" src="__STATIC__/lib/jquery/jquery-1.7.2.min.js"></script>
+
+<script>
+document.getElementById("desc").value="{$task_info.desc}";
+</script>
+{/block}
+
+</body>
+</html>

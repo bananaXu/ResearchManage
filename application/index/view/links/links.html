@@ -1,0 +1,64 @@
+﻿{extend name='public/base' /}
+
+{block name='seo'}
+<title>{$title|default='相关链接'}</title>
+<meta name="keywords" content="{$keywords|default='页面关键字'}">
+<meta name="description" content="{$desc|default='页面描述'}">
+{/block}
+
+{block name='content'}
+<div class="container" style="width: 960px; background-color: white; min-height: 600px;">
+	<div class="dropdown mt-20">
+		<span class="pl-25" style="font-size: 24px; font-family: Arial, sans-serif;color: #366;padding-left: 30px;text-shadow:#f3f3f3 1px 1px 0px, #b2b2b2 1px 2px 0;background: url('__STATIC__/img/workUnit_icon.png') no-repeat 0 50%;">全部学科</span>
+		<div class="dropdown-content">
+			<a href="javascript:;" onclick="textChange('%', '全部学科')">全部学科</a>
+			{volist name="subject_list" id="vo"}
+			<a href="javascript:;" onclick="textChange({$vo.id}, '{$vo.name}')">{$vo.name}</a>
+			{/volist}
+		</div>
+	</div>
+	<div class="MyPage">
+		<div class="pt-15 pl-30">
+			<ul>
+			{volist name="links_list" id="vo"}
+			<li>
+				<font face="Arial" size="2">
+					<div style="float: left; width: 350px;"><a href="{$vo.address}" target="_blank">{$vo.journal}</a></div>
+					<div style="float: left; width: 100px;">{$vo.rate}</div>
+					周期：{$vo.period}
+				</font>
+			</li>
+			{/volist}
+			</ul>
+			<p class="to_top"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[ </font></font><a href="#top"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Page Top</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ]</font></font></p>
+			<br class="clear">
+		</div>
+	</div>
+</div>
+{/block}
+
+{block name='js'}
+<script type="text/javascript">
+$("#links").attr('class', 'active');
+function textChange(id, content)
+{
+	$(".dropdown").find('span').html(content);
+	$.ajax({
+		type: "POST",  
+		url: "{:url('ajaxSearchresbysubject')}",  
+		data: {"id": id},
+		success: function(data){
+			if (data != "no")
+			{
+				let temp = eval(data);
+				let html = '';
+				for (var i = 0; i < temp.length; i ++){
+					html += '<li><font face="Arial" size="2"><div style="float: left; width: 350px;"><a href="'+temp[i]["address"]+'" target="_blank">'+temp[i]["journal"]+'</a></div><div style="float: left; width: 100px;">'+temp[i]["rate"]+'</div>周期：'+temp[i]["period"]+'</font></li>';
+				}
+				$(".MyPage").find('div').find('ul').html(html);
+			}
+		}
+	});
+}
+</script>
+{/block}

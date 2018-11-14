@@ -1,0 +1,2243 @@
+---------------------------------------------------------------
+[ 2018-11-12T00:02:45+08:00 ] 191.5.180.140 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001777s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000850s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000654s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000453s ]
+---------------------------------------------------------------
+[ 2018-11-12T00:05:02+08:00 ] 80.91.25.185 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001494s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000551s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000401s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000411s ]
+---------------------------------------------------------------
+[ 2018-11-12T00:32:53+08:00 ] 50.118.255.36 GET http://fr.cyberpods.net/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001691s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.001136s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000863s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000536s ]
+---------------------------------------------------------------
+[ 2018-11-12T00:32:54+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001776s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000557s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000357s ]
+---------------------------------------------------------------
+[ 2018-11-12T00:34:13+08:00 ] 50.118.255.36 GET http://www.ejiar.cn/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003863s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000535s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000377s ]
+---------------------------------------------------------------
+[ 2018-11-12T00:34:18+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001553s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000602s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000345s ]
+---------------------------------------------------------------
+[ 2018-11-12T00:43:47+08:00 ] 47.100.64.9 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002101s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000813s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000550s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000559s ]
+---------------------------------------------------------------
+[ 2018-11-12T01:05:26+08:00 ] 179.113.31.238 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001685s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000846s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000644s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000365s ]
+---------------------------------------------------------------
+[ 2018-11-12T01:32:45+08:00 ] 50.118.255.36 GET http://www.ejiar.cn/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001427s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000817s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000638s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000386s ]
+---------------------------------------------------------------
+[ 2018-11-12T01:32:48+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001342s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000537s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2018-11-12T01:33:40+08:00 ] 138.97.216.133 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001505s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000531s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000361s ]
+---------------------------------------------------------------
+[ 2018-11-12T01:47:23+08:00 ] 223.16.10.133 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001933s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000673s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000561s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000425s ]
+---------------------------------------------------------------
+[ 2018-11-12T01:58:53+08:00 ] 151.48.34.59 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001745s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000858s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000611s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000416s ]
+---------------------------------------------------------------
+[ 2018-11-12T02:03:23+08:00 ] 50.118.255.36 GET http://fr.cyberpods.net/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001554s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000528s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000359s ]
+---------------------------------------------------------------
+[ 2018-11-12T02:03:24+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001433s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000518s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000464s ]
+---------------------------------------------------------------
+[ 2018-11-12T02:30:11+08:00 ] 178.73.215.171 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001431s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000806s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000643s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000425s ]
+---------------------------------------------------------------
+[ 2018-11-12T03:14:35+08:00 ] 202.104.32.180 HEAD /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001472s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000826s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000653s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000415s ]
+---------------------------------------------------------------
+[ 2018-11-12T03:20:37+08:00 ] 41.169.15.26 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001783s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000546s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000371s ]
+---------------------------------------------------------------
+[ 2018-11-12T03:24:20+08:00 ] 59.120.74.204 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001709s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000525s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000455s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000372s ]
+---------------------------------------------------------------
+[ 2018-11-12T03:31:10+08:00 ] 58.248.108.198 HEAD /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001456s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000836s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000651s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000397s ]
+---------------------------------------------------------------
+[ 2018-11-12T03:42:39+08:00 ] 183.160.247.126 HEAD /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001530s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000525s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000369s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000357s ]
+---------------------------------------------------------------
+[ 2018-11-12T03:43:14+08:00 ] 121.232.169.112 HEAD /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001768s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000535s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000493s ]
+---------------------------------------------------------------
+[ 2018-11-12T03:59:02+08:00 ] 117.50.7.159 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001689s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000804s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000655s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000397s ]
+---------------------------------------------------------------
+[ 2018-11-12T04:02:41+08:00 ] 50.118.255.36 GET http://fr.cyberpods.net/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001598s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000569s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000373s ]
+---------------------------------------------------------------
+[ 2018-11-12T04:02:42+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001301s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000531s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2018-11-12T04:33:11+08:00 ] 50.118.255.36 CONNECT www.alipay.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001700s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000927s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000764s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000493s ]
+---------------------------------------------------------------
+[ 2018-11-12T05:03:50+08:00 ] 50.118.255.36 CONNECT www.alipay.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001338s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000818s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000631s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000386s ]
+---------------------------------------------------------------
+[ 2018-11-12T05:18:11+08:00 ] 217.61.109.220 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001558s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000539s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000444s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000404s ]
+---------------------------------------------------------------
+[ 2018-11-12T06:29:25+08:00 ] 103.96.51.116 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001829s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000815s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000650s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000428s ]
+---------------------------------------------------------------
+[ 2018-11-12T06:30:36+08:00 ] 50.118.255.36 CONNECT www.alipay.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001752s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000602s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000432s ]
+---------------------------------------------------------------
+[ 2018-11-12T06:37:53+08:00 ] 111.41.217.22 HEAD /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001403s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000517s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000389s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000378s ]
+---------------------------------------------------------------
+[ 2018-11-12T06:58:03+08:00 ] 203.207.57.88 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001693s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000849s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000659s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000395s ]
+---------------------------------------------------------------
+[ 2018-11-12T07:01:47+08:00 ] 50.118.255.36 GET http://proxyjudge.us/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001751s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000643s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[ 2018-11-12T07:01:48+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001632s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000549s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000363s ]
+---------------------------------------------------------------
+[ 2018-11-12T07:16:37+08:00 ] 118.31.244.58 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001768s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000580s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000520s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000407s ]
+---------------------------------------------------------------
+[ 2018-11-12T07:30:32+08:00 ] 50.118.255.36 GET http://proxyjudge.us/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001651s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000993s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000646s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000367s ]
+---------------------------------------------------------------
+[ 2018-11-12T07:30:33+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001294s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000525s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[ 2018-11-12T07:30:33+08:00 ] 36.35.31.177 GET http://www.123cha.com
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001364s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000527s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[ 2018-11-12T08:19:22+08:00 ] 117.177.21.100 HEAD /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001717s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000858s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000646s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000391s ]
+---------------------------------------------------------------
+[ 2018-11-12T08:52:40+08:00 ] 45.114.68.102 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001484s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000840s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000665s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000403s ]
+---------------------------------------------------------------
+[ 2018-11-12T09:08:08+08:00 ] 60.23.167.72 HEAD /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001701s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000812s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000606s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000374s ]
+---------------------------------------------------------------
+[ 2018-11-12T09:08:12+08:00 ] 116.117.251.6 HEAD /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001543s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000553s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000484s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000453s ]
+---------------------------------------------------------------
+[ 2018-11-12T09:09:30+08:00 ] 191.193.240.222 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001601s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000548s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000362s ]
+---------------------------------------------------------------
+[ 2018-11-12T09:36:21+08:00 ] 112.40.239.60 HEAD /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001670s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000856s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000615s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000411s ]
+---------------------------------------------------------------
+[ 2018-11-12T09:51:52+08:00 ] 50.118.255.36 CONNECT www.alipay.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001616s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000607s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000439s ]
+---------------------------------------------------------------
+[ 2018-11-12T09:52:41+08:00 ] 50.118.255.36 GET http://fr.cyberpods.net/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001706s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000534s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000509s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000360s ]
+---------------------------------------------------------------
+[ 2018-11-12T09:53:42+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001494s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000534s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000585s ]
+---------------------------------------------------------------
+[ 2018-11-12T09:56:55+08:00 ] 142.93.232.173 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001395s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000522s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000387s ]
+---------------------------------------------------------------
+[ 2018-11-12T09:58:54+08:00 ] 103.84.143.249 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001309s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.001052s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000606s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000372s ]
+---------------------------------------------------------------
+[ 2018-11-12T10:01:54+08:00 ] 120.76.23.202 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001459s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000539s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000426s ]
+---------------------------------------------------------------
+[ 2018-11-12T10:04:10+08:00 ] 202.114.144.233 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001779s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000600s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000365s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2018-11-12T10:04:13+08:00 ] 202.114.144.233 GET /index/member/personal.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001615s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select name, spell, sex, grade, hobbies, intro, achievement, contact, direction, photoname
+									from member
+								   where id = 1 
+								     and enable = 1 [ RunTime:0.000912s ]
+---------------------------------------------------------------
+[ 2018-11-12T10:17:58+08:00 ] 64.84.120.2 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001692s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000541s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000365s ]
+---------------------------------------------------------------
+[ 2018-11-12T10:18:26+08:00 ] 50.118.255.36 GET http://proxyjudge.us/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001606s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000563s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000387s ]
+---------------------------------------------------------------
+[ 2018-11-12T10:18:27+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001536s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000545s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000375s ]
+---------------------------------------------------------------
+[ 2018-11-12T10:28:51+08:00 ] 202.114.144.233 POST /admin/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001683s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003825s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `name` = 'admin'  AND `password` = '21218cca77804d2ba1922c33e0151105' ) AND `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000562s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `login_count`=`login_count`+1  WHERE  `id` = 1 [ RunTime:0.000474s ]
+---------------------------------------------------------------
+[ 2018-11-12T10:28:52+08:00 ] 202.114.144.233 GET /admin/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001322s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000453s ]
+---------------------------------------------------------------
+[ 2018-11-12T10:28:54+08:00 ] 202.114.144.233 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001515s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000806s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000612s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[ 2018-11-12T10:28:58+08:00 ] 202.114.144.233 GET /index/links/links.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001729s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, name from subject where enable = 1 [ RunTime:0.000998s ]
+[ sql ] [ SQL ] select id, journal, rate, period, address from links where enable = 1 [ RunTime:0.001333s ]
+---------------------------------------------------------------
+[ 2018-11-12T10:28:59+08:00 ] 202.114.144.233 GET /index/member/member.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001984s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, name, spell, photoname from member where education = 2 and enable = 1 [ RunTime:0.001082s ]
+[ sql ] [ SQL ] select id, name, spell, photoname from member where education = 1 and enable = 1 [ RunTime:0.000439s ]
+[ sql ] [ SQL ] select id, name, spell, photoname from member where education = 0 and enable = 1 [ RunTime:0.000482s ]
+---------------------------------------------------------------
+[ 2018-11-12T10:29:00+08:00 ] 202.114.144.233 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001620s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000526s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000356s ]
+---------------------------------------------------------------
+[ 2018-11-12T10:29:04+08:00 ] 202.114.144.233 GET /admin/user/adminEdit/id/1.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.042672s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003533s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000539s ]
+---------------------------------------------------------------
+[ 2018-11-12T10:29:04+08:00 ] 202.114.144.233 GET /admin/user/adminEdit/id/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001233s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003473s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000542s ]
+---------------------------------------------------------------
+[ 2018-11-12T10:47:05+08:00 ] 78.45.94.221 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001638s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000538s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000365s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000357s ]
+---------------------------------------------------------------
+[ 2018-11-12T11:12:14+08:00 ] 50.118.255.36 CONNECT www.alipay.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001366s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000824s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000880s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[ 2018-11-12T11:12:15+08:00 ] 116.252.191.86 GET http://www.123cha.com
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001303s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000543s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000397s ]
+---------------------------------------------------------------
+[ 2018-11-12T11:57:09+08:00 ] 202.114.144.233 GET /index/download/download.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002025s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, 
+										  description, uploadtime, "" as labels
+								 from download
+								where enable = 1 [ RunTime:0.001049s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 148 [ RunTime:0.000692s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000710s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 147 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000358s ]
+[ sql ] [ SQL ] select id, name from label where id = 11 [ RunTime:0.000384s ]
+[ sql ] [ SQL ] select id, name from label where id = 12 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 146 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 145 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 150 [ RunTime:0.000384s ]
+[ sql ] [ SQL ] select id, name from label where id = 15 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] select id, name from label where id = 16 [ RunTime:0.000615s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 151 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000380s ]
+[ sql ] [ SQL ] select id, name from label where id = 17 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 152 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 [ RunTime:0.000786s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 1 [ RunTime:0.000741s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 3 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 4 [ RunTime:0.000404s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 1 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 2 [ RunTime:0.000414s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 2 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 0 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 0 [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2018-11-12T11:57:25+08:00 ] 202.114.144.233 GET /index/task/task.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001604s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select t1.id, t1.title, t1.desc, t1.ctime, t1.state, t1.updater_id, t1.updatetime,
+									  t1.principal, t1.estimatedTime,
+								  (select name from user where t1.creator_id = id) as creator,
+								  (select CONCAT(filename, '.', filetype) from download where t1.resource_id = id) as resource
+							 from task as t1
+							where enable = 1 [ RunTime:0.001505s ]
+---------------------------------------------------------------
+[ 2018-11-12T11:57:44+08:00 ] 202.114.144.233 GET /index/download/download.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002480s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, 
+										  description, uploadtime, "" as labels
+								 from download
+								where enable = 1 [ RunTime:0.000802s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 148 [ RunTime:0.000748s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000744s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 147 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] select id, name from label where id = 11 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] select id, name from label where id = 12 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 146 [ RunTime:0.000362s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000369s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 145 [ RunTime:0.000375s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000452s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 150 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] select id, name from label where id = 15 [ RunTime:0.000573s ]
+[ sql ] [ SQL ] select id, name from label where id = 16 [ RunTime:0.000440s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 151 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000401s ]
+[ sql ] [ SQL ] select id, name from label where id = 17 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 152 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 [ RunTime:0.000780s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 1 [ RunTime:0.000752s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 3 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 4 [ RunTime:0.000404s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 1 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 2 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 2 [ RunTime:0.000445s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 0 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 0 [ RunTime:0.000408s ]
+---------------------------------------------------------------
+[ 2018-11-12T11:58:41+08:00 ] 202.114.144.233 GET /index/links/links.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001718s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, name from subject where enable = 1 [ RunTime:0.000781s ]
+[ sql ] [ SQL ] select id, journal, rate, period, address from links where enable = 1 [ RunTime:0.000750s ]
+---------------------------------------------------------------
+[ 2018-11-12T11:58:43+08:00 ] 202.114.144.233 GET /index/task/task.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001544s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select t1.id, t1.title, t1.desc, t1.ctime, t1.state, t1.updater_id, t1.updatetime,
+									  t1.principal, t1.estimatedTime,
+								  (select name from user where t1.creator_id = id) as creator,
+								  (select CONCAT(filename, '.', filetype) from download where t1.resource_id = id) as resource
+							 from task as t1
+							where enable = 1 [ RunTime:0.000736s ]
+---------------------------------------------------------------
+[ 2018-11-12T11:58:45+08:00 ] 202.114.144.233 GET /index/dynamic/dynamic.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001556s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc [ RunTime:0.000795s ]
+---------------------------------------------------------------
+[ 2018-11-12T12:05:33+08:00 ] 50.118.255.36 CONNECT www.alipay.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001675s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000872s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000371s ]
+---------------------------------------------------------------
+[ 2018-11-12T12:10:01+08:00 ] 189.113.109.144 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001426s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000536s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000391s ]
+---------------------------------------------------------------
+[ 2018-11-12T12:19:39+08:00 ] 124.167.17.252 HEAD /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001728s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000533s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000375s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000363s ]
+---------------------------------------------------------------
+[ 2018-11-12T12:32:49+08:00 ] 50.118.255.36 GET http://www.ejiar.cn/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001387s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000802s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000624s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000399s ]
+---------------------------------------------------------------
+[ 2018-11-12T12:32:50+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001323s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000524s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000426s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000392s ]
+---------------------------------------------------------------
+[ 2018-11-12T12:59:15+08:00 ] 189.111.66.149 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002490s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.001149s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000867s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000529s ]
+---------------------------------------------------------------
+[ 2018-11-12T13:01:39+08:00 ] 157.25.53.182 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003973s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000532s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000701s ]
+---------------------------------------------------------------
+[ 2018-11-12T13:06:15+08:00 ] 50.118.255.36 CONNECT www.alipay.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001494s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000538s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000487s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[ 2018-11-12T13:07:40+08:00 ] 202.114.144.233 GET /index/links/links.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001612s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, name from subject where enable = 1 [ RunTime:0.000732s ]
+[ sql ] [ SQL ] select id, journal, rate, period, address from links where enable = 1 [ RunTime:0.000694s ]
+---------------------------------------------------------------
+[ 2018-11-12T13:08:33+08:00 ] 202.114.144.233 GET /index/links/links.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001872s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, name from subject where enable = 1 [ RunTime:0.000468s ]
+[ sql ] [ SQL ] select id, journal, rate, period, address from links where enable = 1 [ RunTime:0.000467s ]
+---------------------------------------------------------------
+[ 2018-11-12T13:08:41+08:00 ] 202.114.144.233 GET /index/download/download.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001833s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, 
+										  description, uploadtime, "" as labels
+								 from download
+								where enable = 1 [ RunTime:0.001010s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 148 [ RunTime:0.000649s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000584s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 147 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] select id, name from label where id = 11 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] select id, name from label where id = 12 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 146 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 145 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 150 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] select id, name from label where id = 15 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] select id, name from label where id = 16 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 151 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] select id, name from label where id = 17 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 152 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 [ RunTime:0.000618s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 1 [ RunTime:0.000640s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 3 [ RunTime:0.000358s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 4 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 2 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 2 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 0 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 0 [ RunTime:0.000329s ]
+---------------------------------------------------------------
+[ 2018-11-12T13:08:46+08:00 ] 202.114.144.233 GET /admin/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001783s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000840s ]
+---------------------------------------------------------------
+[ 2018-11-12T13:34:32+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001685s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000837s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000662s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000417s ]
+---------------------------------------------------------------
+[ 2018-11-12T13:34:32+08:00 ] 111.85.179.19 GET http://www.123cha.com
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001382s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000546s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000403s ]
+---------------------------------------------------------------
+[ 2018-11-12T13:58:46+08:00 ] 123.164.238.69 HEAD /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001588s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000789s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000595s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000353s ]
+---------------------------------------------------------------
+[ 2018-11-12T14:07:00+08:00 ] 50.118.255.36 GET http://www.ejiar.cn/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001550s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000596s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000438s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000431s ]
+---------------------------------------------------------------
+[ 2018-11-12T14:07:01+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001280s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000525s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000380s ]
+---------------------------------------------------------------
+[ 2018-11-12T14:17:31+08:00 ] 92.54.243.45 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001696s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000697s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000373s ]
+---------------------------------------------------------------
+[ 2018-11-12T14:35:11+08:00 ] 50.118.255.36 CONNECT www.alipay.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002022s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000877s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000676s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[ 2018-11-12T15:02:37+08:00 ] 31.173.69.165 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001736s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000883s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000701s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000414s ]
+---------------------------------------------------------------
+[ 2018-11-12T15:07:50+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001367s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000508s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000369s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000364s ]
+---------------------------------------------------------------
+[ 2018-11-12T15:24:14+08:00 ] 58.253.13.66 HEAD /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001642s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000548s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000370s ]
+---------------------------------------------------------------
+[ 2018-11-12T15:28:25+08:00 ] 37.235.138.61 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001983s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000981s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000815s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000497s ]
+---------------------------------------------------------------
+[ 2018-11-12T16:00:13+08:00 ] 203.143.30.185 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001541s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000808s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000623s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000369s ]
+---------------------------------------------------------------
+[ 2018-11-12T16:40:10+08:00 ] 50.118.255.36 CONNECT www.alipay.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001406s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000773s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000622s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000368s ]
+---------------------------------------------------------------
+[ 2018-11-12T17:32:51+08:00 ] 217.208.215.135 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001702s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000827s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000611s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000378s ]
+---------------------------------------------------------------
+[ 2018-11-12T17:33:17+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001325s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000530s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2018-11-12T17:34:07+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001306s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000534s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000414s ]
+---------------------------------------------------------------
+[ 2018-11-12T18:18:11+08:00 ] 1.25.175.58 HEAD /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001768s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000891s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000624s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000403s ]
+---------------------------------------------------------------
+[ 2018-11-12T18:59:04+08:00 ] 50.118.255.36 GET http://www.ejiar.cn/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001519s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000853s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000671s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000396s ]
+---------------------------------------------------------------
+[ 2018-11-12T18:59:04+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001538s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000548s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000380s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000365s ]
+---------------------------------------------------------------
+[ 2018-11-12T19:11:30+08:00 ] 202.114.144.233 GET /admin/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001843s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000933s ]
+---------------------------------------------------------------
+[ 2018-11-12T19:26:03+08:00 ] 50.118.255.36 CONNECT www.alipay.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001622s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000526s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000360s ]
+---------------------------------------------------------------
+[ 2018-11-12T19:31:03+08:00 ] 178.62.29.156 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001605s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000888s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000746s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000400s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:05:18+08:00 ] 202.114.144.233 GET /admin/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001618s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000766s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:05:20+08:00 ] 202.114.144.233 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001428s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.001466s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000601s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000377s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:05:45+08:00 ] 202.114.144.233 GET /index/download/download.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001526s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, 
+										  description, uploadtime, "" as labels
+								 from download
+								where enable = 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 148 [ RunTime:0.000607s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000876s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 147 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] select id, name from label where id = 11 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] select id, name from label where id = 12 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 146 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 145 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 150 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] select id, name from label where id = 15 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] select id, name from label where id = 16 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 151 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] select id, name from label where id = 17 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 152 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 [ RunTime:0.000653s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 1 [ RunTime:0.000639s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 3 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 4 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 1 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 2 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 2 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 0 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 0 [ RunTime:0.000320s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:05:50+08:00 ] 202.114.144.233 GET /index/links/links.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001399s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, name from subject where enable = 1 [ RunTime:0.000761s ]
+[ sql ] [ SQL ] select id, journal, rate, period, address from links where enable = 1 [ RunTime:0.000684s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:05:52+08:00 ] 202.114.144.233 POST /index/links/ajaxsearchresbysubject.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001548s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `link_subject` [ RunTime:0.003555s ]
+[ sql ] [ SQL ] SELECT * FROM `link_subject` WHERE  `subject_id` = 1 LIMIT 1 [ RunTime:0.000691s ]
+[ sql ] [ SQL ] select id, journal, rate, period, address 
+									   from links 
+									  where enable = 1 
+										and id in (select link_id 
+													 from link_subject 
+													where subject_id = 1) [ RunTime:0.000577s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:05:55+08:00 ] 202.114.144.233 POST /index/links/ajaxsearchresbysubject.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001428s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, journal, rate, period, address from links where enable = 1 [ RunTime:0.000542s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:06:06+08:00 ] 202.114.144.233 GET /index/download/download.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001577s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, 
+										  description, uploadtime, "" as labels
+								 from download
+								where enable = 1 [ RunTime:0.000642s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 148 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 147 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] select id, name from label where id = 11 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] select id, name from label where id = 12 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 146 [ RunTime:0.000502s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 145 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000572s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 150 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] select id, name from label where id = 15 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] select id, name from label where id = 16 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 151 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] select id, name from label where id = 17 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 152 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 1 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 3 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 4 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 1 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 2 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 2 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 0 [ RunTime:0.000313s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 0 [ RunTime:0.000327s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:06:09+08:00 ] 202.114.144.233 GET /admin/user/logout.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001549s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003800s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `login_time`=1542024369,`delete_time`=NULL,`is_delete`=1,`update_time`=1542024369  WHERE  `id` = 1 [ RunTime:0.000586s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:06:29+08:00 ] 202.114.144.233 POST /admin/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001524s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003498s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `name` = 'yuanxu'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' ) AND `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000561s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `login_count`=`login_count`+1  WHERE  `id` = 15 [ RunTime:0.000436s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:06:30+08:00 ] 202.114.144.233 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001688s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000705s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000505s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000493s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:06:35+08:00 ] 202.114.144.233 GET /index/download/download.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001677s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, 
+										  description, uploadtime, "" as labels
+								 from download
+								where enable = 1 [ RunTime:0.000851s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 148 [ RunTime:0.000471s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000427s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000419s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 147 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000426s ]
+[ sql ] [ SQL ] select id, name from label where id = 11 [ RunTime:0.000422s ]
+[ sql ] [ SQL ] select id, name from label where id = 12 [ RunTime:0.000415s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 146 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000417s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000417s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 145 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000427s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000413s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 150 [ RunTime:0.000416s ]
+[ sql ] [ SQL ] select id, name from label where id = 15 [ RunTime:0.000428s ]
+[ sql ] [ SQL ] select id, name from label where id = 16 [ RunTime:0.000619s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 151 [ RunTime:0.000454s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000434s ]
+[ sql ] [ SQL ] select id, name from label where id = 17 [ RunTime:0.000427s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 152 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 [ RunTime:0.000458s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 1 [ RunTime:0.000465s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 3 [ RunTime:0.000445s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 4 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 2 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 2 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 0 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 0 [ RunTime:0.000349s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:06:47+08:00 ] 202.114.144.233 POST /index/download/ajaxsearchresbycates.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001705s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, description, uploadtime, "" as labels from download d
+				  where uploadtime >= '1900-01-01'
+				    and uploadtime <= '2018-11-12'
+				    and enable = 1 and (filename like '%%'
+					 or source like '%%'
+					 or author like '%%'
+					 or uploader like '%%') and cate_dtl in (0) [ RunTime:0.000962s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 148 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 147 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] select id, name from label where id = 11 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] select id, name from label where id = 12 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 146 [ RunTime:0.000406s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 145 [ RunTime:0.000417s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000435s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 150 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] select id, name from label where id = 15 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] select id, name from label where id = 16 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 151 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000422s ]
+[ sql ] [ SQL ] select id, name from label where id = 17 [ RunTime:0.000450s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 152 [ RunTime:0.000563s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:06:49+08:00 ] 202.114.144.233 POST /index/download/ajaxsearchresbycates.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002279s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, description, uploadtime, "" as labels from download d
+				  where uploadtime >= '1900-01-01'
+				    and uploadtime <= '2018-11-12'
+				    and enable = 1 and (filename like '%%'
+					 or source like '%%'
+					 or author like '%%'
+					 or uploader like '%%') and cate_dtl in (3) [ RunTime:0.000823s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:06:49+08:00 ] 202.114.144.233 POST /index/download/ajaxsearchresbycates.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001654s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, description, uploadtime, "" as labels from download d
+				  where uploadtime >= '1900-01-01'
+				    and uploadtime <= '2018-11-12'
+				    and enable = 1 and (filename like '%%'
+					 or source like '%%'
+					 or author like '%%'
+					 or uploader like '%%') and cate_dtl in (3,4) [ RunTime:0.000646s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:06:50+08:00 ] 202.114.144.233 POST /index/download/ajaxsearchresbycates.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001859s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, description, uploadtime, "" as labels from download d
+				  where uploadtime >= '1900-01-01'
+				    and uploadtime <= '2018-11-12'
+				    and enable = 1 and (filename like '%%'
+					 or source like '%%'
+					 or author like '%%'
+					 or uploader like '%%') and cate_dtl in (4) [ RunTime:0.000681s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:06:51+08:00 ] 202.114.144.233 POST /index/download/ajaxsearchresbycates.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001846s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, description, uploadtime, "" as labels from download d
+				  where uploadtime >= '1900-01-01'
+				    and uploadtime <= '2018-11-12'
+				    and enable = 1 and (filename like '%%'
+					 or source like '%%'
+					 or author like '%%'
+					 or uploader like '%%') [ RunTime:0.000746s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 148 [ RunTime:0.000405s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 147 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000813s ]
+[ sql ] [ SQL ] select id, name from label where id = 11 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] select id, name from label where id = 12 [ RunTime:0.000313s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 146 [ RunTime:0.000347s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000479s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 145 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 150 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] select id, name from label where id = 15 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] select id, name from label where id = 16 [ RunTime:0.000313s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 151 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] select id, name from label where id = 17 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 152 [ RunTime:0.000296s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:06:54+08:00 ] 202.114.144.233 GET /admin/user/adminEdit/id/15.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001964s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003602s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 15 ) AND `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000572s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:06:54+08:00 ] 202.114.144.233 GET /admin/user/adminEdit/id/15.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001454s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003545s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 15 ) AND `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000584s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:07:12+08:00 ] 202.114.144.233 POST /admin/user/edituser.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001557s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003908s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` <> 15  AND `name` = 'yuanxu' ) AND `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 15 ) AND `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000496s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `name`='yuanxu',`password`='8ddcff3a80f4189ca1c9d4d902c3c909',`delete_time`=NULL,`is_delete`=1,`update_time`=1542024432  WHERE  `id` = 15 [ RunTime:0.000475s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:07:15+08:00 ] 202.114.144.233 GET /admin/user/logout.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001663s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.004168s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `login_time`=1542024435,`delete_time`=NULL,`is_delete`=1,`update_time`=1542024435  WHERE  `id` = 15 [ RunTime:0.000553s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:07:23+08:00 ] 202.114.144.233 POST /admin/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001477s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003287s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `name` = 'yuanxu'  AND `password` = '8ddcff3a80f4189ca1c9d4d902c3c909' ) AND `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000547s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `login_count`=`login_count`+1  WHERE  `id` = 15 [ RunTime:0.000432s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:07:24+08:00 ] 202.114.144.233 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001659s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000541s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000398s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:07:26+08:00 ] 202.114.144.233 GET /index/links/links.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001560s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, name from subject where enable = 1 [ RunTime:0.000469s ]
+[ sql ] [ SQL ] select id, journal, rate, period, address from links where enable = 1 [ RunTime:0.000480s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:07:28+08:00 ] 202.114.144.233 GET /index/download/download.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001461s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, 
+										  description, uploadtime, "" as labels
+								 from download
+								where enable = 1 [ RunTime:0.000621s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 148 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 147 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] select id, name from label where id = 11 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] select id, name from label where id = 12 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 146 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 145 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 150 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] select id, name from label where id = 15 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] select id, name from label where id = 16 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 151 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] select id, name from label where id = 17 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 152 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 1 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 3 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 4 [ RunTime:0.000522s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 1 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 2 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 2 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 0 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 0 [ RunTime:0.000305s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:07:40+08:00 ] 202.114.144.233 POST /index/download/ajaxsearchresbycates.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001456s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, description, uploadtime, "" as labels from download d
+				  where uploadtime >= '1900-01-01'
+				    and uploadtime <= '2018-11-12'
+				    and enable = 1 and filename like '%t%' [ RunTime:0.002387s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 147 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] select id, name from label where id = 11 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] select id, name from label where id = 12 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 146 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 145 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 150 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] select id, name from label where id = 15 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] select id, name from label where id = 16 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 151 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] select id, name from label where id = 17 [ RunTime:0.000295s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:07:45+08:00 ] 202.114.144.233 POST /index/download/ajaxsearchresbycates.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001486s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, description, uploadtime, "" as labels from download d
+				  where uploadtime >= '1900-01-01'
+				    and uploadtime <= '2018-11-12'
+				    and enable = 1 and source like '%t%' [ RunTime:0.000664s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 147 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] select id, name from label where id = 11 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] select id, name from label where id = 12 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 146 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 145 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000405s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 150 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] select id, name from label where id = 15 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] select id, name from label where id = 16 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 151 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] select id, name from label where id = 17 [ RunTime:0.000284s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:08:02+08:00 ] 202.114.144.233 POST /index/download/ajaxsearchresbycates.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001461s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, description, uploadtime, "" as labels from download d
+				  where uploadtime >= '1900-01-01'
+				    and uploadtime <= '2018-11-12'
+				    and enable = 1 and author like '%yuanx%' [ RunTime:0.000644s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:08:07+08:00 ] 202.114.144.233 POST /index/download/ajaxsearchresbycates.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001399s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, description, uploadtime, "" as labels from download d
+				  where uploadtime >= '1900-01-01'
+				    and uploadtime <= '2018-11-12'
+				    and enable = 1 and uploader like '%%' [ RunTime:0.000677s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 148 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 147 [ RunTime:0.000332s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] select id, name from label where id = 11 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] select id, name from label where id = 12 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 146 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 145 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 150 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] select id, name from label where id = 15 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] select id, name from label where id = 16 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 151 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] select id, name from label where id = 17 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 152 [ RunTime:0.000271s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:08:34+08:00 ] 202.114.144.233 POST /index/download/ajaxsearchresbycates.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002092s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, description, uploadtime, "" as labels from download d
+				  where uploadtime >= '2018-11-06'
+				    and uploadtime <= '2018-11-12'
+				    and enable = 1 and (filename like '%%'
+					 or source like '%%'
+					 or author like '%%'
+					 or uploader like '%%') [ RunTime:0.000624s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:08:37+08:00 ] 202.114.144.233 POST /index/download/ajaxsearchresbycates.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001692s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, description, uploadtime, "" as labels from download d
+				  where uploadtime >= '2018-10-28'
+				    and uploadtime <= '2018-11-12'
+				    and enable = 1 and (filename like '%%'
+					 or source like '%%'
+					 or author like '%%'
+					 or uploader like '%%') [ RunTime:0.000737s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 148 [ RunTime:0.000608s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000787s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 147 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] select id, name from label where id = 11 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] select id, name from label where id = 12 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 146 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 145 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 150 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] select id, name from label where id = 15 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] select id, name from label where id = 16 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 151 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] select id, name from label where id = 17 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 152 [ RunTime:0.000290s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:14:24+08:00 ] 202.114.144.233 GET /index/download/download.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001577s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, 
+										  description, uploadtime, "" as labels
+								 from download
+								where enable = 1 [ RunTime:0.000637s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 148 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 147 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000540s ]
+[ sql ] [ SQL ] select id, name from label where id = 11 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] select id, name from label where id = 12 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 146 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 145 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 150 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] select id, name from label where id = 15 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] select id, name from label where id = 16 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 151 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000419s ]
+[ sql ] [ SQL ] select id, name from label where id = 17 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 152 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 3 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 4 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 2 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 2 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 0 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 0 [ RunTime:0.000316s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:14:30+08:00 ] 202.114.144.233 GET /admin/user/logout.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001988s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003702s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `login_time`=1542024870,`delete_time`=NULL,`is_delete`=1,`update_time`=1542024870  WHERE  `id` = 15 [ RunTime:0.000477s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:14:40+08:00 ] 202.114.144.233 POST /admin/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001487s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003466s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `name` = 'admin'  AND `password` = '8ddcff3a80f4189ca1c9d4d902c3c909' ) AND `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000557s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:14:47+08:00 ] 202.114.144.233 POST /admin/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001508s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.003446s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `name` = 'admin'  AND `password` = '8ddcff3a80f4189ca1c9d4d902c3c909' ) AND `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000570s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:14:58+08:00 ] 202.114.144.233 POST /admin/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001546s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.004357s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `name` = 'admin'  AND `password` = '21218cca77804d2ba1922c33e0151105' ) AND `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000559s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `login_count`=`login_count`+1  WHERE  `id` = 1 [ RunTime:0.000434s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:14:59+08:00 ] 202.114.144.233 GET /admin/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001522s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000445s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:15:04+08:00 ] 202.114.144.233 GET /admin/resource/resourcelist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001642s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] select t1.id, t1.filename, t1.category, t1.cate_dtl, t1.source, t1.description,
+										  t1.filetype, t1.author, t1.uploader, t1.uploadtime, t1.enable,
+										  (select category from res_cat where id = t1.category) as cate,
+										  (select cat_dtl from res_cat_dtl where id = t1.cate_dtl) as cat_dtl
+									 from download as t1 
+									where filename like '%%'
+									   or source like '%%'
+									   or author like '%%'
+									   or uploader like '%%'
+									  and category like '%'
+									  and uploadtime >= 1900-01-01
+									  and uploadtime <= 2018-11-12 [ RunTime:0.000917s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:15:20+08:00 ] 202.114.144.233 GET /admin/resource/setstatus.html?id=149
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001852s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] update download set enable = 1-enable where id = 149 [ RunTime:0.000530s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:15:22+08:00 ] 202.114.144.233 GET /admin/resource/setstatus.html?id=152
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001798s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] update download set enable = 1-enable where id = 152 [ RunTime:0.000448s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:15:30+08:00 ] 202.114.144.233 GET /admin/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001504s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000489s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:15:31+08:00 ] 202.114.144.233 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001730s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000590s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000479s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000481s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:15:32+08:00 ] 202.114.144.233 GET /index/task/task.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001509s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select t1.id, t1.title, t1.desc, t1.ctime, t1.state, t1.updater_id, t1.updatetime,
+									  t1.principal, t1.estimatedTime,
+								  (select name from user where t1.creator_id = id) as creator,
+								  (select CONCAT(filename, '.', filetype) from download where t1.resource_id = id) as resource
+							 from task as t1
+							where enable = 1 [ RunTime:0.001019s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:15:33+08:00 ] 202.114.144.233 GET /index/download/download.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001493s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, 
+										  description, uploadtime, "" as labels
+								 from download
+								where enable = 1 [ RunTime:0.000668s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 149 [ RunTime:0.000460s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] select id, name from label where id = 14 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 148 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 147 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] select id, name from label where id = 11 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] select id, name from label where id = 12 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 146 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 145 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 150 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] select id, name from label where id = 15 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] select id, name from label where id = 16 [ RunTime:0.000344s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 151 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000608s ]
+[ sql ] [ SQL ] select id, name from label where id = 17 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 1 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 3 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 4 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 2 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 2 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 0 [ RunTime:0.000655s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 0 [ RunTime:0.000372s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:15:38+08:00 ] 202.114.144.233 GET /admin/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001478s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000471s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:15:40+08:00 ] 202.114.144.233 GET /admin/resource/resourcelist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001469s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000438s ]
+[ sql ] [ SQL ] select t1.id, t1.filename, t1.category, t1.cate_dtl, t1.source, t1.description,
+										  t1.filetype, t1.author, t1.uploader, t1.uploadtime, t1.enable,
+										  (select category from res_cat where id = t1.category) as cate,
+										  (select cat_dtl from res_cat_dtl where id = t1.cate_dtl) as cat_dtl
+									 from download as t1 
+									where filename like '%%'
+									   or source like '%%'
+									   or author like '%%'
+									   or uploader like '%%'
+									  and category like '%'
+									  and uploadtime >= 1900-01-01
+									  and uploadtime <= 2018-11-12 [ RunTime:0.000834s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:15:45+08:00 ] 202.114.144.233 GET /admin/resource/resourceedit/id/149.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001485s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `download` [ RunTime:0.003493s ]
+[ sql ] [ SQL ] SELECT * FROM `download` WHERE  `id` = 149 LIMIT 1 [ RunTime:0.000532s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 149 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] select id, name from label where id = 14 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 order by id desc [ RunTime:0.000337s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 0 order by id desc [ RunTime:0.000348s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:15:45+08:00 ] 202.114.144.233 GET /admin/resource/resourceedit/id/149.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001616s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `download` [ RunTime:0.003282s ]
+[ sql ] [ SQL ] SELECT * FROM `download` WHERE  `id` = 149 LIMIT 1 [ RunTime:0.000552s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 149 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] select id, name from label where id = 14 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 order by id desc [ RunTime:0.000365s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 0 order by id desc [ RunTime:0.000358s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:15:53+08:00 ] 202.114.144.233 POST /admin/resource/getcatedtl.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001740s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 1 order by id desc [ RunTime:0.000507s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:15:58+08:00 ] 202.114.144.233 POST /admin/resource/editresource.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002103s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `download` [ RunTime:0.003676s ]
+[ sql ] [ SQL ] UPDATE `download`  SET `author`='Shixiong Zhao',`description`='Crowdsourcing has attractedincreasingattention from both  industry  and  academia  since it was  proposed. Nowa  lot  of work  is  finished  by  crowdsourcing,  such  as  logo  design,  website promotion, industrial design, copywriting, software development, translationandimage annotation. Although software crowdsourcing achievespositive results in practice,westill faceachallengeofassigningsuitable developers to specific tasks. In this paper, we proposea novel approachthatrecommendsdevelopers. In     particular, our     approachsupports:comprehensivelymeasuringthe  tasks  and developersin  software crowdsourcing,andrecommendingdevelopers on the  basis  of the developer-task competence, task-task similarity,and soft power.',`category`=1,`cate_dtl`=3,`source`='The 27th Internation'  WHERE  `id` = 149 [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `res_label` [ RunTime:0.003203s ]
+[ sql ] [ SQL ] DELETE FROM `res_label`    WHERE  `res_id` = 149 [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `label` [ RunTime:0.003163s ]
+[ sql ] [ SQL ] SELECT * FROM `label` WHERE  `name` = '软件众包' LIMIT 1 [ RunTime:0.000451s ]
+[ sql ] [ SQL ] INSERT INTO `res_label` (`res_id` , `label_id`) VALUES (149 , 9) [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SELECT * FROM `label` WHERE  `name` = '工人推荐' LIMIT 1 [ RunTime:0.000632s ]
+[ sql ] [ SQL ] INSERT INTO `res_label` (`res_id` , `label_id`) VALUES (149 , 14) [ RunTime:0.000332s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:16:09+08:00 ] 202.114.144.233 GET /admin/resource/resourceedit/id/148.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001800s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `download` [ RunTime:0.003530s ]
+[ sql ] [ SQL ] SELECT * FROM `download` WHERE  `id` = 148 LIMIT 1 [ RunTime:0.000555s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 148 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 order by id desc [ RunTime:0.000358s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 0 order by id desc [ RunTime:0.000368s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:16:09+08:00 ] 202.114.144.233 GET /admin/resource/resourceedit/id/148.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001410s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `download` [ RunTime:0.003726s ]
+[ sql ] [ SQL ] SELECT * FROM `download` WHERE  `id` = 148 LIMIT 1 [ RunTime:0.000591s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 148 [ RunTime:0.000362s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 order by id desc [ RunTime:0.000394s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 0 order by id desc [ RunTime:0.000384s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:16:12+08:00 ] 202.114.144.233 POST /admin/resource/getcatedtl.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001559s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 1 order by id desc [ RunTime:0.000865s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:16:14+08:00 ] 202.114.144.233 POST /admin/resource/editresource.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001662s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `download` [ RunTime:0.004088s ]
+[ sql ] [ SQL ] UPDATE `download`  SET `author`='章晓芳',`description`='众包测试是一种新兴的软件测试方式,得到了学术界和工业界的广泛关注.系统地总结了近年来众包软件测试研究的学术文献以及工业界实践进展:首先,从学术文献涉及的研究主题演变、涵盖的软件测试问题和众包测试流程、采用的实验对象及测试人员规模等多个角度对相关文献中提出的技术和方法进行了汇总;然后,从测试领域、测试对象、工人召集方式、绩效考核方式等方面分析对比了当前应用最广泛的20个众包测试商业平台;最后,探讨了众包软件测试的未来发展趋势、机遇和挑战',`category`=1,`cate_dtl`=3,`source`='软件学报'  WHERE  `id` = 148 [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `res_label` [ RunTime:0.003549s ]
+[ sql ] [ SQL ] DELETE FROM `res_label`    WHERE  `res_id` = 148 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `label` [ RunTime:0.003063s ]
+[ sql ] [ SQL ] SELECT * FROM `label` WHERE  `name` = '综述' LIMIT 1 [ RunTime:0.000417s ]
+[ sql ] [ SQL ] INSERT INTO `res_label` (`res_id` , `label_id`) VALUES (148 , 10) [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT * FROM `label` WHERE  `name` = '众包软件测试' LIMIT 1 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] INSERT INTO `res_label` (`res_id` , `label_id`) VALUES (148 , 13) [ RunTime:0.000317s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:16:19+08:00 ] 202.114.144.233 GET /admin/resource/resourceedit/id/147.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001878s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `download` [ RunTime:0.004229s ]
+[ sql ] [ SQL ] SELECT * FROM `download` WHERE  `id` = 147 LIMIT 1 [ RunTime:0.000621s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 147 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] select id, name from label where id = 11 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] select id, name from label where id = 12 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 order by id desc [ RunTime:0.000404s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 0 order by id desc [ RunTime:0.000377s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:16:19+08:00 ] 202.114.144.233 GET /admin/resource/resourceedit/id/147.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001678s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `download` [ RunTime:0.004029s ]
+[ sql ] [ SQL ] SELECT * FROM `download` WHERE  `id` = 147 LIMIT 1 [ RunTime:0.000641s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 147 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] select id, name from label where id = 11 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] select id, name from label where id = 12 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 order by id desc [ RunTime:0.000414s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 0 order by id desc [ RunTime:0.000404s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:16:22+08:00 ] 202.114.144.233 POST /admin/resource/getcatedtl.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001477s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 1 order by id desc [ RunTime:0.000500s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:16:27+08:00 ] 202.114.144.233 POST /admin/resource/editresource.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001974s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `download` [ RunTime:0.003541s ]
+[ sql ] [ SQL ] UPDATE `download`  SET `author`='Ke Mao',`description`='Many software organizations are turning to employ crowdsourcing to augment their software production. For current practice of crowdsourcing, it is common to see a mass number of tasks posted on software crowdsourcing platforms, with little guidance for task selection. Considering that crowd developers may vary greatly in expertise, inappropriate developer-task matching will harm the quality of the deliverables. It is also not time-efﬁcient for developers to discover their most appropriate tasks from vast open call requests. We propose an approach called PREM, aiming to appropriately match between developers and tasks. PREM automatically learns from the developers’ historical task data. In addition to task preference, PREM considers the competition nature of crowdsourcing by constructing developers’ prestige network. This differs our approach from previous developer recommendation methods that are based on task and/or individual features. Experiments are conducted on 3 TopCoder datasets with 9,191 tasks in total. Our experimental results show that reasonable accuracies are achievable (63%, 46%, 36% for the 3 datasets respectively, when matching 5 developers to each task) and the constructed prestige network can help improve the matching results.',`category`=1,`cate_dtl`=3,`source`='UCL DEPARTMENT OF CO'  WHERE  `id` = 147 [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `res_label` [ RunTime:0.002844s ]
+[ sql ] [ SQL ] DELETE FROM `res_label`    WHERE  `res_id` = 147 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `label` [ RunTime:0.003066s ]
+[ sql ] [ SQL ] SELECT * FROM `label` WHERE  `name` = '软件众包' LIMIT 1 [ RunTime:0.000410s ]
+[ sql ] [ SQL ] INSERT INTO `res_label` (`res_id` , `label_id`) VALUES (147 , 9) [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT * FROM `label` WHERE  `name` = '任务分配' LIMIT 1 [ RunTime:0.000362s ]
+[ sql ] [ SQL ] INSERT INTO `res_label` (`res_id` , `label_id`) VALUES (147 , 11) [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT * FROM `label` WHERE  `name` = '分类模型' LIMIT 1 [ RunTime:0.000368s ]
+[ sql ] [ SQL ] INSERT INTO `res_label` (`res_id` , `label_id`) VALUES (147 , 12) [ RunTime:0.000302s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:16:31+08:00 ] 202.114.144.233 GET /admin/resource/resourceedit/id/150.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001877s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `download` [ RunTime:0.004210s ]
+[ sql ] [ SQL ] SELECT * FROM `download` WHERE  `id` = 150 LIMIT 1 [ RunTime:0.000578s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 150 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] select id, name from label where id = 15 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] select id, name from label where id = 16 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 order by id desc [ RunTime:0.000360s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 0 order by id desc [ RunTime:0.000353s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:16:31+08:00 ] 202.114.144.233 GET /admin/resource/resourceedit/id/150.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001400s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `download` [ RunTime:0.003395s ]
+[ sql ] [ SQL ] SELECT * FROM `download` WHERE  `id` = 150 LIMIT 1 [ RunTime:0.000553s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 150 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] select id, name from label where id = 15 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] select id, name from label where id = 16 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 order by id desc [ RunTime:0.000371s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 0 order by id desc [ RunTime:0.000387s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:16:33+08:00 ] 202.114.144.233 POST /admin/resource/getcatedtl.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001494s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 1 order by id desc [ RunTime:0.000534s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:16:34+08:00 ] 202.114.144.233 POST /admin/resource/editresource.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001543s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `download` [ RunTime:0.003496s ]
+[ sql ] [ SQL ] UPDATE `download`  SET `author`='Harold W. Kuhn',`description`='This paper has always been one of my favorite “children,” combining as it doeselements of the duality of linear programming and combinatorial tools from graphtheory. It may be of some interest to tell the story of its origin',`category`=1,`cate_dtl`=3,`source`='Naval ResearchLogist'  WHERE  `id` = 150 [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `res_label` [ RunTime:0.003077s ]
+[ sql ] [ SQL ] DELETE FROM `res_label`    WHERE  `res_id` = 150 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `label` [ RunTime:0.003419s ]
+[ sql ] [ SQL ] SELECT * FROM `label` WHERE  `name` = 'KM算法' LIMIT 1 [ RunTime:0.000547s ]
+[ sql ] [ SQL ] INSERT INTO `res_label` (`res_id` , `label_id`) VALUES (150 , 15) [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SELECT * FROM `label` WHERE  `name` = '带权二分图最优匹配' LIMIT 1 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] INSERT INTO `res_label` (`res_id` , `label_id`) VALUES (150 , 16) [ RunTime:0.000318s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:16:38+08:00 ] 202.114.144.233 GET /admin/resource/resourceedit/id/151.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.041789s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `download` [ RunTime:0.003831s ]
+[ sql ] [ SQL ] SELECT * FROM `download` WHERE  `id` = 151 LIMIT 1 [ RunTime:0.000546s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 151 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] select id, name from label where id = 17 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 order by id desc [ RunTime:0.000329s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 0 order by id desc [ RunTime:0.000344s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:16:38+08:00 ] 202.114.144.233 GET /admin/resource/resourceedit/id/151.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001573s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `download` [ RunTime:0.003121s ]
+[ sql ] [ SQL ] SELECT * FROM `download` WHERE  `id` = 151 LIMIT 1 [ RunTime:0.000535s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 151 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] select id, name from label where id = 17 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 order by id desc [ RunTime:0.000328s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 0 order by id desc [ RunTime:0.000338s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:16:39+08:00 ] 202.114.144.233 POST /admin/resource/getcatedtl.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001949s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 1 order by id desc [ RunTime:0.000510s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:16:41+08:00 ] 202.114.144.233 POST /admin/resource/editresource.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001686s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `download` [ RunTime:0.003659s ]
+[ sql ] [ SQL ] UPDATE `download`  SET `author`='Yuan-HsinTung',`description`='Softwaretestingprocessesaregenerallylabor-intensiveandofteninvolvesubstantialcollaborationamongtesters,developers,andevenusers.However,considerablehumanresourcecapacityexistsontheInternetinsocialnetworks,expertcommunities,orinternetforums—referredtoascrowds.Effec-tivelyusingcrowdresourcestosupportcollaborativetestingisaninterestingandchallengingtopic.ThispaperdefinesthecollaborativetestingprobleminacrowdenvironmentasanNP-Completejobassign-mentproblemandformulatesitasanintegerlinearprogramming(ILP)problem.AlthoughpackagetoolscanbeusedtoobtaintheoptimalsolutiontoanILPproblem,computationalcomplexitymakesthesetoolsunsuitableforsolvinglarge-scaleproblems.Thisstudyusesagreedyapproachwithfourheuristicstrategiestosolvetheproblem.Thisiscalledthecrowdsourcing-basedcollaborativetestingapproach.Thisapproachincludestwophases,trainingphaseandtestingphase.ThetrainingphasetransformstheoriginalproblemintoanILPproblem.ThetestingphasesolvestheILPusingheuristicstrategies.Aprototypesystem,calledtheCollaborativeTestingSystem(COTS),isalsoimplemented.Theexperimentresultsshowthattheproposedheuristicalgorithmsproducegoodqualityapproximatesolutionsinanacceptabletimeframe.',`category`=1,`cate_dtl`=3,`source`='The Journal of Syste'  WHERE  `id` = 151 [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `res_label` [ RunTime:0.002740s ]
+[ sql ] [ SQL ] DELETE FROM `res_label`    WHERE  `res_id` = 151 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `label` [ RunTime:0.002808s ]
+[ sql ] [ SQL ] SELECT * FROM `label` WHERE  `name` = '众包软件测试' LIMIT 1 [ RunTime:0.000488s ]
+[ sql ] [ SQL ] INSERT INTO `res_label` (`res_id` , `label_id`) VALUES (151 , 13) [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SELECT * FROM `label` WHERE  `name` = '整数线性规划' LIMIT 1 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] INSERT INTO `res_label` (`res_id` , `label_id`) VALUES (151 , 17) [ RunTime:0.000294s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:16:44+08:00 ] 202.114.144.233 GET /admin/resource/resourceedit/id/145.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.044395s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `download` [ RunTime:0.003211s ]
+[ sql ] [ SQL ] SELECT * FROM `download` WHERE  `id` = 145 LIMIT 1 [ RunTime:0.000738s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 145 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 order by id desc [ RunTime:0.000335s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 0 order by id desc [ RunTime:0.000334s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:16:44+08:00 ] 202.114.144.233 GET /admin/resource/resourceedit/id/145.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001392s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `download` [ RunTime:0.003160s ]
+[ sql ] [ SQL ] SELECT * FROM `download` WHERE  `id` = 145 LIMIT 1 [ RunTime:0.000523s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 145 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 order by id desc [ RunTime:0.000343s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 0 order by id desc [ RunTime:0.000330s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:16:46+08:00 ] 202.114.144.233 POST /admin/resource/getcatedtl.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001874s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 1 order by id desc [ RunTime:0.000549s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:16:48+08:00 ] 202.114.144.233 POST /admin/resource/editresource.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001604s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `download` [ RunTime:0.003431s ]
+[ sql ] [ SQL ] UPDATE `download`  SET `author`='Ke Mao',`description`='Crowdsourcing can be used to support software engineering activities and research into these activities. Inthis paper we provide a comprehensive survey of the use of crowdsourcing to support software engineeringactivities (Crowdsourced Software Engineering), seeking to cover all literature on this topic. We describe thesoftware engineering domains, tasks and applications for crowdsourcing and the platforms and stakehold-ers involved in realising Crowdsourced Software Engineering solutions. We also expose trends, issues andopportunities for Crowdsourced Software Engineering.',`category`=1,`cate_dtl`=3,`source`='UCL DEPARTMENT OF CO'  WHERE  `id` = 145 [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `res_label` [ RunTime:0.003053s ]
+[ sql ] [ SQL ] DELETE FROM `res_label`    WHERE  `res_id` = 145 [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `label` [ RunTime:0.002929s ]
+[ sql ] [ SQL ] SELECT * FROM `label` WHERE  `name` = '软件众包' LIMIT 1 [ RunTime:0.000439s ]
+[ sql ] [ SQL ] INSERT INTO `res_label` (`res_id` , `label_id`) VALUES (145 , 9) [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT * FROM `label` WHERE  `name` = '综述' LIMIT 1 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] INSERT INTO `res_label` (`res_id` , `label_id`) VALUES (145 , 10) [ RunTime:0.000335s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:16:51+08:00 ] 202.114.144.233 GET /admin/resource/resourceedit/id/146.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001669s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `download` [ RunTime:0.003365s ]
+[ sql ] [ SQL ] SELECT * FROM `download` WHERE  `id` = 146 LIMIT 1 [ RunTime:0.000582s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 146 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 order by id desc [ RunTime:0.000366s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 0 order by id desc [ RunTime:0.000348s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:16:51+08:00 ] 202.114.144.233 GET /admin/resource/resourceedit/id/146.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001520s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `download` [ RunTime:0.003603s ]
+[ sql ] [ SQL ] SELECT * FROM `download` WHERE  `id` = 146 LIMIT 1 [ RunTime:0.000571s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 146 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 order by id desc [ RunTime:0.000392s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 0 order by id desc [ RunTime:0.000355s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:16:53+08:00 ] 202.114.144.233 POST /admin/resource/getcatedtl.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001688s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 1 order by id desc [ RunTime:0.000509s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:16:55+08:00 ] 202.114.144.233 POST /admin/resource/editresource.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001704s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `download` [ RunTime:0.003403s ]
+[ sql ] [ SQL ] UPDATE `download`  SET `author`='Klaas-Jan Stol ',`description`='Crowdsourcing is an emerging and promising approach whichinvolves delegating a variety of tasks to an unknown workforce—the crowd. Crowdsourcing has been applied quite successfully invarious contexts from basic tasks on Amazon Mechanical Turk tosolving complex industry problems, e.g. InnoCentive. Companiesare increasingly using crowdsourcing to accomplish specific softwaredevelopment tasks. However, very little research exists onthis specific topic. This paper presents an in-depth industry casestudy of crowdsourcing software development at a multinationalcorporation. Our case study highlights a number of challenges thatarise when crowdsourcing software development. For example,the crowdsourcing development process is essentially a waterfallmodel and this must eventually be integrated with the agileapproach used by the company. Crowdsourcing works better forspecific software development tasks that are less complex andstand-alone without interdependencies. The development cost wasmuch greater than originally expected, overhead in terms of companyeffort to prepare specifications and answer crowdsourcingcommunity queries was much greater, and the time-scale to completecontests, review submissions and resolve quality issues wassignificant. Finally, quality issues were pushed later in the lifecyclegiven the lengthy process necessary to identify and resolvequality issues. Given the emphasis in software engineering onidentifying bugs as early as possible, this is quite problematic. ',`category`=1,`cate_dtl`=3,`source`=' 36th International '  WHERE  `id` = 146 [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `res_label` [ RunTime:0.003261s ]
+[ sql ] [ SQL ] DELETE FROM `res_label`    WHERE  `res_id` = 146 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `label` [ RunTime:0.002756s ]
+[ sql ] [ SQL ] SELECT * FROM `label` WHERE  `name` = '软件众包' LIMIT 1 [ RunTime:0.000606s ]
+[ sql ] [ SQL ] INSERT INTO `res_label` (`res_id` , `label_id`) VALUES (146 , 9) [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SELECT * FROM `label` WHERE  `name` = '综述' LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] INSERT INTO `res_label` (`res_id` , `label_id`) VALUES (146 , 10) [ RunTime:0.000309s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:16:58+08:00 ] 202.114.144.233 GET /admin/resource/resourceedit/id/147.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.043764s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `download` [ RunTime:0.003850s ]
+[ sql ] [ SQL ] SELECT * FROM `download` WHERE  `id` = 147 LIMIT 1 [ RunTime:0.000616s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 147 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] select id, name from label where id = 11 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] select id, name from label where id = 12 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 order by id desc [ RunTime:0.000341s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 1 order by id desc [ RunTime:0.000366s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:16:58+08:00 ] 202.114.144.233 GET /admin/resource/resourceedit/id/147.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001332s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `download` [ RunTime:0.003472s ]
+[ sql ] [ SQL ] SELECT * FROM `download` WHERE  `id` = 147 LIMIT 1 [ RunTime:0.000555s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 147 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] select id, name from label where id = 11 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] select id, name from label where id = 12 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 order by id desc [ RunTime:0.000351s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 1 order by id desc [ RunTime:0.000357s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:17:02+08:00 ] 202.114.144.233 GET /admin/resource/resourceedit/id/148.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.043153s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `download` [ RunTime:0.003289s ]
+[ sql ] [ SQL ] SELECT * FROM `download` WHERE  `id` = 148 LIMIT 1 [ RunTime:0.000547s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 148 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 order by id desc [ RunTime:0.000332s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 1 order by id desc [ RunTime:0.000361s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:17:02+08:00 ] 202.114.144.233 GET /admin/resource/resourceedit/id/148.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001579s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `download` [ RunTime:0.003187s ]
+[ sql ] [ SQL ] SELECT * FROM `download` WHERE  `id` = 148 LIMIT 1 [ RunTime:0.000536s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 148 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 order by id desc [ RunTime:0.000337s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 1 order by id desc [ RunTime:0.000336s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:17:05+08:00 ] 202.114.144.233 GET /admin/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001842s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000520s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:17:05+08:00 ] 202.114.144.233 GET /admin/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001907s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000432s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:17:06+08:00 ] 202.114.144.233 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001795s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000804s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000342s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:17:09+08:00 ] 202.114.144.233 GET /index/download/download.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001641s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, 
+										  description, uploadtime, "" as labels
+								 from download
+								where enable = 1 [ RunTime:0.000657s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 149 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] select id, name from label where id = 14 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 148 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 147 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] select id, name from label where id = 11 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] select id, name from label where id = 12 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 146 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 145 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 150 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] select id, name from label where id = 15 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] select id, name from label where id = 16 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 151 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] select id, name from label where id = 17 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 1 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 3 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 4 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 2 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 2 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 0 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 0 [ RunTime:0.000297s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:17:15+08:00 ] 202.114.144.233 POST /index/download/ajaxsearchresbycates.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002113s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, description, uploadtime, "" as labels from download d
+				  where uploadtime >= '1900-01-01'
+				    and uploadtime <= '2018-11-12'
+				    and enable = 1 and (filename like '%%'
+					 or source like '%%'
+					 or author like '%%'
+					 or uploader like '%%') and cate_dtl in (3) [ RunTime:0.000984s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 149 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] select id, name from label where id = 14 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 148 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000526s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 147 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] select id, name from label where id = 11 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] select id, name from label where id = 12 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 146 [ RunTime:0.000389s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 145 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 150 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] select id, name from label where id = 15 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] select id, name from label where id = 16 [ RunTime:0.000376s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 151 [ RunTime:0.000384s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] select id, name from label where id = 17 [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:17:16+08:00 ] 202.114.144.233 POST /index/download/ajaxsearchresbycates.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001657s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, description, uploadtime, "" as labels from download d
+				  where uploadtime >= '1900-01-01'
+				    and uploadtime <= '2018-11-12'
+				    and enable = 1 and (filename like '%%'
+					 or source like '%%'
+					 or author like '%%'
+					 or uploader like '%%') [ RunTime:0.000708s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 149 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] select id, name from label where id = 14 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 148 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 147 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] select id, name from label where id = 11 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] select id, name from label where id = 12 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 146 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 145 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 150 [ RunTime:0.000453s ]
+[ sql ] [ SQL ] select id, name from label where id = 15 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] select id, name from label where id = 16 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 151 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] select id, name from label where id = 17 [ RunTime:0.000276s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:17:17+08:00 ] 202.114.144.233 POST /index/download/ajaxsearchresbycates.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001449s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, description, uploadtime, "" as labels from download d
+				  where uploadtime >= '1900-01-01'
+				    and uploadtime <= '2018-11-12'
+				    and enable = 1 and (filename like '%%'
+					 or source like '%%'
+					 or author like '%%'
+					 or uploader like '%%') and cate_dtl in (4) [ RunTime:0.000615s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:17:18+08:00 ] 202.114.144.233 POST /index/download/ajaxsearchresbycates.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001494s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, description, uploadtime, "" as labels from download d
+				  where uploadtime >= '1900-01-01'
+				    and uploadtime <= '2018-11-12'
+				    and enable = 1 and (filename like '%%'
+					 or source like '%%'
+					 or author like '%%'
+					 or uploader like '%%') and cate_dtl in (4,3) [ RunTime:0.000754s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 149 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] select id, name from label where id = 14 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 148 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 147 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] select id, name from label where id = 11 [ RunTime:0.000493s ]
+[ sql ] [ SQL ] select id, name from label where id = 12 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 146 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 145 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 150 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] select id, name from label where id = 15 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] select id, name from label where id = 16 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 151 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] select id, name from label where id = 17 [ RunTime:0.000294s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:17:19+08:00 ] 202.114.144.233 POST /index/download/ajaxsearchresbycates.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001546s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, description, uploadtime, "" as labels from download d
+				  where uploadtime >= '1900-01-01'
+				    and uploadtime <= '2018-11-12'
+				    and enable = 1 and (filename like '%%'
+					 or source like '%%'
+					 or author like '%%'
+					 or uploader like '%%') and cate_dtl in (3) [ RunTime:0.000713s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 149 [ RunTime:0.000413s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] select id, name from label where id = 14 [ RunTime:0.000540s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 148 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 147 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] select id, name from label where id = 11 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] select id, name from label where id = 12 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 146 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 145 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 150 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] select id, name from label where id = 15 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] select id, name from label where id = 16 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 151 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] select id, name from label where id = 17 [ RunTime:0.000286s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:17:19+08:00 ] 202.114.144.233 POST /index/download/ajaxsearchresbycates.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001440s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, description, uploadtime, "" as labels from download d
+				  where uploadtime >= '1900-01-01'
+				    and uploadtime <= '2018-11-12'
+				    and enable = 1 and (filename like '%%'
+					 or source like '%%'
+					 or author like '%%'
+					 or uploader like '%%') [ RunTime:0.000710s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 149 [ RunTime:0.000344s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] select id, name from label where id = 14 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 148 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 147 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] select id, name from label where id = 11 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] select id, name from label where id = 12 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 146 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 145 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 150 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] select id, name from label where id = 15 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] select id, name from label where id = 16 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 151 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] select id, name from label where id = 17 [ RunTime:0.000286s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:19:36+08:00 ] 202.114.144.233 GET /admin/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001761s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000459s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:19:39+08:00 ] 202.114.144.233 GET /admin/resource/resourcelist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001528s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000450s ]
+[ sql ] [ SQL ] select t1.id, t1.filename, t1.category, t1.cate_dtl, t1.source, t1.description,
+										  t1.filetype, t1.author, t1.uploader, t1.uploadtime, t1.enable,
+										  (select category from res_cat where id = t1.category) as cate,
+										  (select cat_dtl from res_cat_dtl where id = t1.cate_dtl) as cat_dtl
+									 from download as t1 
+									where filename like '%%'
+									   or source like '%%'
+									   or author like '%%'
+									   or uploader like '%%'
+									  and category like '%'
+									  and uploadtime >= 1900-01-01
+									  and uploadtime <= 2018-11-12 [ RunTime:0.000914s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:22:22+08:00 ] 50.118.255.36 CONNECT www.alipay.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001505s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000535s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:22:24+08:00 ] 119.118.20.162 GET http://www.123cha.com
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001562s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000592s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000404s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:22:44+08:00 ] 202.114.144.233 GET /admin/resource/resourcelist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001575s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] select t1.id, t1.filename, t1.category, t1.cate_dtl, t1.source, t1.description,
+										  t1.filetype, t1.author, t1.uploader, t1.uploadtime, t1.enable,
+										  (select category from res_cat where id = t1.category) as cate,
+										  (select cat_dtl from res_cat_dtl where id = t1.cate_dtl) as cat_dtl
+									 from download as t1 
+									where filename like '%%'
+									   or source like '%%'
+									   or author like '%%'
+									   or uploader like '%%'
+									  and category like '%'
+									  and uploadtime >= 1900-01-01
+									  and uploadtime <= 2018-11-12 [ RunTime:0.000941s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:22:45+08:00 ] 202.114.144.233 GET /admin/resource/resourcelist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001521s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000481s ]
+[ sql ] [ SQL ] select t1.id, t1.filename, t1.category, t1.cate_dtl, t1.source, t1.description,
+										  t1.filetype, t1.author, t1.uploader, t1.uploadtime, t1.enable,
+										  (select category from res_cat where id = t1.category) as cate,
+										  (select cat_dtl from res_cat_dtl where id = t1.cate_dtl) as cat_dtl
+									 from download as t1 
+									where filename like '%%'
+									   or source like '%%'
+									   or author like '%%'
+									   or uploader like '%%'
+									  and category like '%'
+									  and uploadtime >= 1900-01-01
+									  and uploadtime <= 2018-11-12 [ RunTime:0.001130s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:22:46+08:00 ] 202.114.144.233 GET /admin/resource/resourcelist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001508s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] select t1.id, t1.filename, t1.category, t1.cate_dtl, t1.source, t1.description,
+										  t1.filetype, t1.author, t1.uploader, t1.uploadtime, t1.enable,
+										  (select category from res_cat where id = t1.category) as cate,
+										  (select cat_dtl from res_cat_dtl where id = t1.cate_dtl) as cat_dtl
+									 from download as t1 
+									where filename like '%%'
+									   or source like '%%'
+									   or author like '%%'
+									   or uploader like '%%'
+									  and category like '%'
+									  and uploadtime >= 1900-01-01
+									  and uploadtime <= 2018-11-12 [ RunTime:0.000963s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:23:37+08:00 ] 202.114.144.233 GET /admin/resource/resourcelist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001797s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000473s ]
+[ sql ] [ SQL ] select t1.id, t1.filename, t1.category, t1.cate_dtl, t1.source, t1.description,
+										  t1.filetype, t1.author, t1.uploader, t1.uploadtime, t1.enable,
+										  (select category from res_cat where id = t1.category) as cate,
+										  (select cat_dtl from res_cat_dtl where id = t1.cate_dtl) as cat_dtl
+									 from download as t1 
+									where filename like '%%'
+									   or source like '%%'
+									   or author like '%%'
+									   or uploader like '%%'
+									  and category like '%'
+									  and uploadtime >= 1900-01-01
+									  and uploadtime <= 2018-11-12 [ RunTime:0.000928s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:23:38+08:00 ] 202.114.144.233 GET /admin/resource/resourcelist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001805s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000452s ]
+[ sql ] [ SQL ] select t1.id, t1.filename, t1.category, t1.cate_dtl, t1.source, t1.description,
+										  t1.filetype, t1.author, t1.uploader, t1.uploadtime, t1.enable,
+										  (select category from res_cat where id = t1.category) as cate,
+										  (select cat_dtl from res_cat_dtl where id = t1.cate_dtl) as cat_dtl
+									 from download as t1 
+									where filename like '%%'
+									   or source like '%%'
+									   or author like '%%'
+									   or uploader like '%%'
+									  and category like '%'
+									  and uploadtime >= 1900-01-01
+									  and uploadtime <= 2018-11-12 [ RunTime:0.000979s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:23:40+08:00 ] 202.114.144.233 GET /admin/resource/resourcelist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001707s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] select t1.id, t1.filename, t1.category, t1.cate_dtl, t1.source, t1.description,
+										  t1.filetype, t1.author, t1.uploader, t1.uploadtime, t1.enable,
+										  (select category from res_cat where id = t1.category) as cate,
+										  (select cat_dtl from res_cat_dtl where id = t1.cate_dtl) as cat_dtl
+									 from download as t1 
+									where filename like '%%'
+									   or source like '%%'
+									   or author like '%%'
+									   or uploader like '%%'
+									  and category like '%'
+									  and uploadtime >= 1900-01-01
+									  and uploadtime <= 2018-11-12 [ RunTime:0.000848s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:24:17+08:00 ] 202.114.144.233 GET /admin/resource/resourcelist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001610s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000453s ]
+[ sql ] [ SQL ] select t1.id, t1.filename, t1.category, t1.cate_dtl, t1.source, t1.description,
+										  t1.filetype, t1.author, t1.uploader, t1.uploadtime, t1.enable,
+										  (select category from res_cat where id = t1.category) as cate,
+										  (select cat_dtl from res_cat_dtl where id = t1.cate_dtl) as cat_dtl
+									 from download as t1 
+									where filename like '%%'
+									   or source like '%%'
+									   or author like '%%'
+									   or uploader like '%%'
+									  and category like '%'
+									  and uploadtime >= 1900-01-01
+									  and uploadtime <= 2018-11-12 [ RunTime:0.000903s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:26:25+08:00 ] 202.114.144.233 GET /admin/resource/resourcelist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001737s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000657s ]
+[ sql ] [ SQL ] select t1.id, t1.filename, t1.category, t1.cate_dtl, t1.source, t1.description,
+										  t1.filetype, t1.author, t1.uploader, t1.uploadtime, t1.enable,
+										  (select category from res_cat where id = t1.category) as cate,
+										  (select cat_dtl from res_cat_dtl where id = t1.cate_dtl) as cat_dtl
+									 from download as t1 
+									where filename like '%%'
+									   or source like '%%'
+									   or author like '%%'
+									   or uploader like '%%'
+									  and category like '%'
+									  and uploadtime >= 1900-01-01
+									  and uploadtime <= 2018-11-12 [ RunTime:0.000936s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:27:05+08:00 ] 202.114.144.233 GET /admin/resource/resourcelist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001871s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] select t1.id, t1.filename, t1.category, t1.cate_dtl, t1.source, t1.description,
+										  t1.filetype, t1.author, t1.uploader, t1.uploadtime, t1.enable,
+										  (select category from res_cat where id = t1.category) as cate,
+										  (select cat_dtl from res_cat_dtl where id = t1.cate_dtl) as cat_dtl
+									 from download as t1 
+									where filename like '%%'
+									   or source like '%%'
+									   or author like '%%'
+									   or uploader like '%%'
+									  and category like '%'
+									  and uploadtime >= 1900-01-01
+									  and uploadtime <= 2018-11-12 [ RunTime:0.000894s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:27:30+08:00 ] 202.114.144.233 GET /admin/member/memberlist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001609s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000753s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.004357s ]
+[ sql ] [ SQL ] SELECT * FROM `member` [ RunTime:0.000725s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:29:20+08:00 ] 202.114.144.233 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001638s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.001029s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000600s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000347s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:29:23+08:00 ] 202.114.144.233 GET /index/links/links.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001735s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, name from subject where enable = 1 [ RunTime:0.000745s ]
+[ sql ] [ SQL ] select id, journal, rate, period, address from links where enable = 1 [ RunTime:0.000976s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:29:26+08:00 ] 202.114.144.233 POST /index/links/ajaxsearchresbysubject.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001619s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `link_subject` [ RunTime:0.003965s ]
+[ sql ] [ SQL ] SELECT * FROM `link_subject` WHERE  `subject_id` = 1 LIMIT 1 [ RunTime:0.000452s ]
+[ sql ] [ SQL ] select id, journal, rate, period, address 
+									   from links 
+									  where enable = 1 
+										and id in (select link_id 
+													 from link_subject 
+													where subject_id = 1) [ RunTime:0.000548s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:29:28+08:00 ] 202.114.144.233 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001983s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000553s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000370s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000361s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:29:29+08:00 ] 202.114.144.233 GET /index/member/member.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001714s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, name, spell, photoname from member where education = 2 and enable = 1 [ RunTime:0.000551s ]
+[ sql ] [ SQL ] select id, name, spell, photoname from member where education = 1 and enable = 1 [ RunTime:0.000445s ]
+[ sql ] [ SQL ] select id, name, spell, photoname from member where education = 0 and enable = 1 [ RunTime:0.000420s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:29:52+08:00 ] 202.114.144.233 GET /index/dynamic/dynamic.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002046s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc [ RunTime:0.000492s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:29:54+08:00 ] 202.114.144.233 GET /index/member/member.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001774s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, name, spell, photoname from member where education = 2 and enable = 1 [ RunTime:0.000688s ]
+[ sql ] [ SQL ] select id, name, spell, photoname from member where education = 1 and enable = 1 [ RunTime:0.000434s ]
+[ sql ] [ SQL ] select id, name, spell, photoname from member where education = 0 and enable = 1 [ RunTime:0.000422s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:29:59+08:00 ] 202.114.144.233 GET /index/dynamic/dynamic.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001700s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc [ RunTime:0.000493s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:30:00+08:00 ] 202.114.144.233 GET /index/task/task.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001694s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select t1.id, t1.title, t1.desc, t1.ctime, t1.state, t1.updater_id, t1.updatetime,
+									  t1.principal, t1.estimatedTime,
+								  (select name from user where t1.creator_id = id) as creator,
+								  (select CONCAT(filename, '.', filetype) from download where t1.resource_id = id) as resource
+							 from task as t1
+							where enable = 1 [ RunTime:0.001253s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:30:01+08:00 ] 202.114.144.233 GET /index/download/download.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001716s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, 
+										  description, uploadtime, "" as labels
+								 from download
+								where enable = 1 [ RunTime:0.000689s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 149 [ RunTime:0.000623s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000587s ]
+[ sql ] [ SQL ] select id, name from label where id = 14 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 148 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 147 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] select id, name from label where id = 11 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] select id, name from label where id = 12 [ RunTime:0.000839s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 146 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 145 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 150 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] select id, name from label where id = 15 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] select id, name from label where id = 16 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 151 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] select id, name from label where id = 17 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 [ RunTime:0.000634s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 1 [ RunTime:0.000597s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 3 [ RunTime:0.000344s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 4 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 1 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 2 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 2 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 0 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 0 [ RunTime:0.000318s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:30:14+08:00 ] 202.114.144.233 GET /index/links/links.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001687s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, name from subject where enable = 1 [ RunTime:0.000461s ]
+[ sql ] [ SQL ] select id, journal, rate, period, address from links where enable = 1 [ RunTime:0.000474s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:30:17+08:00 ] 202.114.144.233 GET /index/task/task.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001495s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select t1.id, t1.title, t1.desc, t1.ctime, t1.state, t1.updater_id, t1.updatetime,
+									  t1.principal, t1.estimatedTime,
+								  (select name from user where t1.creator_id = id) as creator,
+								  (select CONCAT(filename, '.', filetype) from download where t1.resource_id = id) as resource
+							 from task as t1
+							where enable = 1 [ RunTime:0.000737s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:30:19+08:00 ] 202.114.144.233 GET /index/dynamic/dynamic.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002120s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc [ RunTime:0.000633s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:30:22+08:00 ] 202.114.144.233 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001735s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000587s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:30:25+08:00 ] 202.114.144.233 GET /index/task/task.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001771s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select t1.id, t1.title, t1.desc, t1.ctime, t1.state, t1.updater_id, t1.updatetime,
+									  t1.principal, t1.estimatedTime,
+								  (select name from user where t1.creator_id = id) as creator,
+								  (select CONCAT(filename, '.', filetype) from download where t1.resource_id = id) as resource
+							 from task as t1
+							where enable = 1 [ RunTime:0.000756s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:30:26+08:00 ] 202.114.144.233 GET /index/download/download.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001469s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, filename, filetype, author, source, category, cate_dtl, 
+										  description, uploadtime, "" as labels
+								 from download
+								where enable = 1 [ RunTime:0.000658s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 149 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] select id, name from label where id = 14 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 148 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 147 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] select id, name from label where id = 11 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] select id, name from label where id = 12 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 146 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 145 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] select id, name from label where id = 9 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] select id, name from label where id = 10 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 150 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] select id, name from label where id = 15 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] select id, name from label where id = 16 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] select label_id from res_label where res_id = 151 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] select id, name from label where id = 13 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] select id, name from label where id = 17 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 1 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 3 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 4 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 1 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 2 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 2 [ RunTime:0.000466s ]
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 0 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] select count(*) as num from download where enable = 1 and cate_dtl = 0 [ RunTime:0.000318s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:30:30+08:00 ] 202.114.144.233 POST /index/download/fileadd.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.043400s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 order by id desc [ RunTime:0.000503s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:30:30+08:00 ] 202.114.144.233 GET /index/download/fileadd.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001226s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, category from res_cat where enable = 1 order by id desc [ RunTime:0.000491s ]
+---------------------------------------------------------------
+[ 2018-11-12T20:31:11+08:00 ] 202.114.144.233 POST /index/download/getcatedtl.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001482s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = 2 order by id desc [ RunTime:0.000487s ]
+---------------------------------------------------------------
+[ 2018-11-12T21:21:44+08:00 ] 115.50.3.82 HEAD /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001552s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000837s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000608s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000353s ]
+---------------------------------------------------------------
+[ 2018-11-12T21:25:41+08:00 ] 50.118.255.36 GET http://www.ejiar.cn/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001729s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000541s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000370s ]
+---------------------------------------------------------------
+[ 2018-11-12T21:25:42+08:00 ] 50.118.255.36 CONNECT www.alipay.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003674s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000545s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000369s ]
+---------------------------------------------------------------
+[ 2018-11-12T22:22:02+08:00 ] 42.49.96.232 HEAD /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001757s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.001119s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000689s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000389s ]
+---------------------------------------------------------------
+[ 2018-11-12T22:51:08+08:00 ] 50.118.255.36 CONNECT www.alipay.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001878s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000868s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000636s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[ 2018-11-12T23:56:02+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001739s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000821s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000617s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2018-11-12T23:58:22+08:00 ] 50.118.255.36 CONNECT www.alipay.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001628s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000817s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000617s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000369s ]

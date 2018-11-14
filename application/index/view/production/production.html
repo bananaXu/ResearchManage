@@ -1,0 +1,38 @@
+﻿{extend name='public/base' /}
+
+{block name='seo'}
+<title>{$title|default='研究成果'}</title>
+<meta name="keywords" content="{$keywords|default='页面关键字'}">
+<meta name="description" content="{$desc|default='页面描述'}">
+{/block}
+
+{block name='content'}
+<div class="container" style="width: 960px; background-color: white; min-height: 600px;">
+	<div class="MyPage">
+		<div class="mt-15">
+			<h5>Recent publications (2018 – present)</h5>
+			<p><a href="#2019">2019</a>/<a href="#2018">2018</a>/<br></p>
+			<p><span style="font-family: Arial;"><span style="color: #808080;"><span style="font-size: 200%;"><strong><a name="2019"></a>2019</strong></span></span></span></p>
+			<ul>
+				<li><a href="http://www.arocmag.com/article/02-2019-04-033.html" target="_blank">付聪, 余敦辉, 张灵莉. 面向中文敏感词变形体的识别方法研究[J]. 计算机应用研究, 2019(4).</a></li>
+				<li><a href="http://www.joca.cn/CN/article/searchArticle.do" target="_blank">周壮, 余敦辉, 张万山, 王意. 基于活跃时间分组的软件众包工人选择机制[J]. 计算机应用, 2019</a></li>
+				<li><a href="http://www.arocmag.com/article/02-2019-11-073.html" target="_blank">王芳, 余敦辉, 张万山. 基于局部划分的匿名算法研究[J/OL]. 2019, 36(11)</a></li>
+			</ul>
+			<p><span style="font-family: Arial;"><span style="color: #808080;"><span style="font-size: 200%;"><strong><a name="2018"></a>2018</strong></span></span></span></p>
+			<ul>
+			<li><a href="http://jeit.ie.ac.cn/article/doi/10.11999/JEIT170930" target="_blank">余敦辉, 张灵莉, 付聪. 基于动态效用的时空众包在线任务分配[J]. 电子与信息学报, 2018(7). </a></li>
+			<li><a href="http://www.joca.cn/CN/Y2018/V38/I7/2032" target="_blank">赵焜松, 余敦辉, 张万山. 软件众包任务发布优先级计算方法[J]. 计算机应用, 2018, 38(7):2032-2036.</a></li>
+			<li><a href="http://www.joca.cn/CN/abstract/abstract22272.shtml" target="_blank">余敦辉, 王意, 张万山. 软件众包工人能力动态度量算法[J]. 计算机应用, 2018.</a></li>
+			</ul>
+			<p class="to_top">[ <a href="#top">回顶部</a> ]</p>
+			<br class="clear">
+		</div>
+	</div>
+</div>
+{/block}
+
+{block name='js'}
+<script type="text/javascript">
+$("#production").attr('class', 'active');
+</script>
+{/block}

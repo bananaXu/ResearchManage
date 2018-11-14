@@ -1,0 +1,131 @@
+{extend name='public/base' /}
+
+{block name='seo'}
+<title>{$title|default='页面标题'}</title>
+<meta name="keywords" content="{$keywords|default='页面关键字'}">
+<meta name="description" content="{$desc|default='页面描述'}">
+{/block}
+
+{block name='content'}
+<section class="Hui-article-box">
+	<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页
+		<span class="c-gray en">&gt;</span>
+		学科管理
+		<span class="c-gray en">&gt;</span>
+		学科列表
+		<span class="c-gray en">&gt;</span>
+		对应链接列表
+		<a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a>
+	</nav>
+	<div class="Hui-article">
+		<article class="cl pd-20">
+			<div class="cl pd-5 bg-1 bk-gray mt-20">
+				<span class="l">
+				<a href="javascript:;" onclick="delAll()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe615;</i> 批量删除</a>
+				<span class="dropDown"> 
+					<a class="btn btn-primary radius" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="Hui-iconfont">&#xe642;</i>添加链接</a>
+					<ul class="dropDown-menu menu radius box-shadow">
+						{volist name="allLinks" id="vo"}
+						<li><a href="javascript:;" onclick="link_add({$vo.id})">{$vo.journal}</a></li>
+						{/volist}
+					</ul>
+				</span>
+				</span>
+			</div>
+			<div class="mt-5">
+				<table class="table table-border table-bordered table-bg table-hover table-sort">
+					<thead>
+						<tr class="text-c">
+							<th width="30"><input type="checkbox" id = "allChecks" name="" value="" onclick="ckAll()"></th>
+							<th width="40">ID</th>
+							<th width="560">name</th>
+							<th width="50">操作</th>
+						</tr>
+					</thead>
+					<tbody>
+					{volist name="linkslist" id="vo"}
+						<tr class="text-c">
+							<td><input type="checkbox" value="" id="{$vo.id}" name="check"></td>
+							<td>{$vo.id}</td>
+							<td>{$vo.journal}</td>
+							<td class="td-manage">
+								<a title="删除" href="javascript:;" onclick="delLink(this,{$vo.id})" class="ml-5" style="text-decoration:none">
+									<i class="Hui-iconfont">&#xe6e2;</i>
+								</a>
+							</td>
+						</tr>
+					{/volist}
+					</tbody>
+				</table>
+			</div>
+		</article>
+	</div>
+</section>
+{/block}
+
+{block name="js"}
+<script type="text/javascript">
+$('.table-sort').dataTable({
+	"aaSorting": [[ 1, "desc" ]],//默认第几个排序
+	"bStateSave": true,//状态保存
+	"searching": true,//是否显示查询
+    "lengthChange": true,//是否使用下位列表选择分页大小
+	"aoColumnDefs": [
+		//{"bVisible": false, "aTargets": [ 3 ]} //控制列的隐藏显示
+		{"orderable":false,"aTargets":[0, 3]}// 不参与排序的列
+	]
+});
+/*链接-添加*/
+function link_add(link_id){
+	$.ajax({
+		type: "POST", 
+		url: "{:url('addLink')}",  
+		data: {"link_id": link_id, "subject_id": {$subject_id}},
+		success: function(data){
+			alert(data.msg);
+			if (data.result == 1)
+			{
+				var html = "<tr class=\"text-c\"><td><input type=\"checkbox\" id=\""+data.id+"\" name=\"check\"></td><td>"+data.id+"</td>\<td>"+data.journal+"</td><td class=\"td-manage\"><a title=\"删除\" href=\"javascript:;\" onclick=\"delLink(this,"+data.id+")\" class=\"ml-5\" style=\"text-decoration:none\"><i class=\"Hui-iconfont\">&#xe6e2;</i></a></td></tr>";
+				$(".table").find('tbody').prepend(html);
+			}
+		}
+	});
+}
+/*链接删除*/
+function delLink(obj, link_id){
+
+	layer.confirm('确认要删除吗？',function(index){
+		//此处请求后台程序，下方是成功后的前台处理……
+		$.get("{:url('subject/delLink')}",{link_id:link_id, subject_id:{$subject_id}});
+		
+		$(obj).parent('td').parent('tr').remove();
+		layer.msg('已删除!',{icon: 5,time:1000});
+	});
+}
+
+/*批量删除*/
+function delAll()
+{
+	layer.confirm('确认要全部删除吗？',function(index){
+		var cks=document.getElementsByName("check");
+		for(var i=cks.length-1; i>=0; i--){
+			if(cks[i].checked==true){
+				var id = cks[i].id;
+				$.get("{:url('subject/delLink')}",{link_id:id, subject_id:{$subject_id}});
+				$("#"+id).parents("tr").remove();
+			}
+		}
+		layer.msg('已删除!',{icon:1,time:1000});
+	});
+	
+}
+
+function ckAll(){
+	var flag=document.getElementById("allChecks").checked;
+	var cks=document.getElementsByName("check");
+	for(var i=0;i<cks.length;i++){
+		cks[i].checked=flag;
+	}
+}
+</script>
+{/block}

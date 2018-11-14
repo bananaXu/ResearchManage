@@ -1,0 +1,225 @@
+---------------------------------------------------------------
+[ 2018-10-21T21:34:17+08:00 ] 127.0.0.1 GET /index/task/taskedit/id/30.html?id=1
+[ info ] www.pt5.com/index/task/taskedit/id/30.html?id=1 [运行时间：0.253396s][吞吐率：3.95req/s] [内存消耗：1,968.05kb] [文件加载：51]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\pt5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'taskedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.pt5.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://www.pt5.com/index/task/task.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|4; PHPSESSID=7mqema675jn3sa8cfh94jmhb83; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '30',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Task->taskEdit[ D:\myphp_www\PHPTutorial\WWW\pt5\application\index\controller\Task.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\pt5\public/../application/index\view\task\task_edit.html [ array (
+  0 => 'title',
+  1 => 'task_info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018053s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] select t1.id, t1.title, t1.desc, t1.ctime, t1.state, t1.updater_id, t1.updatetime, t1.enable,
+									t1.principal, t1.estimatedTime,
+							  	    (select name from user where t1.creator_id = id and enable = 1) as creator,
+									(select filename from download where t1.resource_id = id and enable = 1) as resource
+							   from task as t1
+							  where enable = 1 
+							    and id = 30 [ RunTime:0.001128s ]
+---------------------------------------------------------------
+[ 2018-10-21T21:35:37+08:00 ] 127.0.0.1 GET /index/task/taskedit/id/29.html
+[ info ] www.pt5.com/index/task/taskedit/id/29.html [运行时间：0.154823s][吞吐率：6.46req/s] [内存消耗：2,151.38kb] [文件加载：54]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\pt5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'taskedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.pt5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.pt5.com/index/task/task.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|4; PHPSESSID=7mqema675jn3sa8cfh94jmhb83; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '29',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Task->taskEdit[ D:\myphp_www\PHPTutorial\WWW\pt5\application\index\controller\Task.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\pt5\public/../application/index\view\task\task_edit.html [ array (
+  0 => 'title',
+  1 => 'task_info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015107s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] select t1.id, t1.title, t1.desc, t1.ctime, t1.state, t1.updater_id, t1.updatetime, t1.enable,
+									t1.principal, t1.estimatedTime,
+							  	    (select name from user where t1.creator_id = id and enable = 1) as creator,
+									(select filename from download where t1.resource_id = id and enable = 1) as resource
+							   from task as t1
+							  where enable = 1 
+							    and id = 29 [ RunTime:0.000885s ]
+---------------------------------------------------------------
+[ 2018-10-21T21:35:37+08:00 ] 127.0.0.1 GET /index/task/taskedit/id/29.html?id=1
+[ info ] www.pt5.com/index/task/taskedit/id/29.html?id=1 [运行时间：0.199643s][吞吐率：5.01req/s] [内存消耗：1,968.02kb] [文件加载：51]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\pt5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'taskedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.pt5.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://www.pt5.com/index/task/task.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|4; PHPSESSID=7mqema675jn3sa8cfh94jmhb83; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '29',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Task->taskEdit[ D:\myphp_www\PHPTutorial\WWW\pt5\application\index\controller\Task.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\pt5\public/../application/index\view\task\task_edit.html [ array (
+  0 => 'title',
+  1 => 'task_info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005379s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] select t1.id, t1.title, t1.desc, t1.ctime, t1.state, t1.updater_id, t1.updatetime, t1.enable,
+									t1.principal, t1.estimatedTime,
+							  	    (select name from user where t1.creator_id = id and enable = 1) as creator,
+									(select filename from download where t1.resource_id = id and enable = 1) as resource
+							   from task as t1
+							  where enable = 1 
+							    and id = 29 [ RunTime:0.001791s ]
+---------------------------------------------------------------
+[ 2018-10-21T21:35:47+08:00 ] 127.0.0.1 GET /index/task/taskadd.html
+[ info ] www.pt5.com/index/task/taskadd.html [运行时间：0.119180s][吞吐率：8.39req/s] [内存消耗：1,914.83kb] [文件加载：51]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\pt5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'taskadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.pt5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.pt5.com/index/task/task.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|4; PHPSESSID=7mqema675jn3sa8cfh94jmhb83; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Task->taskAdd[ D:\myphp_www\PHPTutorial\WWW\pt5\application\index\controller\Task.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\pt5\public/../application/index\view\task\task_add.html [ array (
+  0 => 'estimatedTime',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-21T21:35:47+08:00 ] 127.0.0.1 POST /index/task/taskadd.html
+[ info ] www.pt5.com/index/task/taskadd.html [运行时间：0.169300s][吞吐率：5.91req/s] [内存消耗：1,713.66kb] [文件加载：47]
+[ info ] [ LANG ] D:\myphp_www\PHPTutorial\WWW\pt5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'task',
+    2 => 'taskadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.pt5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'origin' => 'http://www.pt5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://www.pt5.com/index/task/task.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|4; PHPSESSID=7mqema675jn3sa8cfh94jmhb83; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Task->taskAdd[ D:\myphp_www\PHPTutorial\WWW\pt5\application\index\controller\Task.php ]
+[ info ] [ VIEW ] D:\myphp_www\PHPTutorial\WWW\pt5\public/../application/index\view\task\task_add.html [ array (
+  0 => 'estimatedTime',
+) ]
+[ info ] [ LOG ] INIT File

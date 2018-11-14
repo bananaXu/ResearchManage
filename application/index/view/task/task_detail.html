@@ -1,0 +1,90 @@
+{extend name='public/base' /}
+
+{block name='seo'}
+<title>{$title|default='页面标题'}</title>
+<meta name="keywords" content="{$keywords|default='页面关键字'}">
+<meta name="description" content="{$desc|default='页面描述'}">
+{/block}
+
+{block name='content'}
+<div class="container" style="width: 960px; background-color: white; min-height: 570px;">
+	<div class="MyPage">
+		<div class="mt-5">
+			<br />
+			<div class="info-title">
+				<img src="__STATIC__\img\calendar-24.png" alt="响应式图片" class="info-title-img" \>
+				任务明细
+			</div>
+			<div class="text-shadow">
+			</div>
+
+			<table class="table table-border table-bordered table-bg table-hover table-sort">
+				<thead>
+					<tr class="text-c">
+						<th width="40">ID</th>
+						<th width="100">名称</th>
+						<th width="120">描述</th>
+						<th width="80">负责人</th>
+						<th width="80">预完成时间</th>
+						<th width="80">当前状态</th>
+						<th width="100">更新时间</th>
+						<th width="50">操作</th>
+					</tr>
+				</thead>
+				<tbody>
+				{volist name="detail_list" id="vo"}
+					<tr class="text-c">
+						<td>{$vo.id}</td>
+						<td>{$vo.title}</td>
+						<td>{$vo.desc}</td>
+						<td>{$vo.principal}</td>
+						<td><?php echo substr($vo['estimatedTime'], 0, 10); ?></td>
+						<td class="td-status">	
+							{if condition="$vo.state eq 0"}
+							<span class="label label-success radius">其他</span>
+							{elseif condition="$vo.state eq 1" /}
+							<span class="label label-success radius">发起</span>
+							{elseif condition="$vo.state eq 2" /}
+							<span class="label label-success radius">进行中</span>
+							{elseif condition="$vo.state eq 3" /}
+							<span class="label label-success radius">已完成</span>
+							{/if}
+						</td>
+						<td><?php echo substr($vo['updatetime'], 0, 16); ?></td>
+						<td class="td-manage">
+							<a title="下载" href="/index/task/downloadfile.html?filename={$vo.resource}" class="text-decoration:none" style="color: #333;"><i class="Hui-iconfont">&#xe640;</i></a>&nbsp;&nbsp;
+							<a title="预览" href="javascript:;"  style="color: #333;" onclick="Media('资料预览','/index/download/media/fileName/<?php echo str_replace(".".substr(strrchr($vo['resource'], '.'), 1),"",$vo['resource']);?>/fileType/<?php echo substr(strrchr($vo['resource'], '.'), 1); ?>','1','900','600')" class="text-decoration:none"><i class="Hui-iconfont">&#xe695;</i></a>
+						</td>
+					</tr>
+				{/volist}
+				</tbody>
+			</table>
+			
+			<form action="" method="post" id="downloadfilesform" style="display:none">
+				<input type="hidden" name="files" id="downloadfilesfiles" value="upload/tmp.zip" />
+			</form>
+		</div>
+		<br />
+		<br />
+	</div>
+</div>
+{/block}
+
+{block name='js'}
+<script type="text/javascript">
+$('.table-sort').dataTable({
+	"aaSorting": [[ 5, "desc" ]],//默认第几个排序
+	"bStateSave": true,//状态保存
+	"searching": false,//是否显示查询
+    "lengthChange": false,//是否使用下位列表选择分页大小
+	"aoColumnDefs": [
+		//{"bVisible": false, "aTargets": [ 3 ]} //控制列的隐藏显示
+		{"orderable":false,"aTargets":[2, 7]}// 不参与排序的列
+	]
+});
+function Media(title,url,fileName,w,h){
+    $.get(url,{fileName:fileName});
+	layer_show(title,url,w,h);
+}
+</script>
+{/block}

@@ -1,0 +1,118 @@
+﻿{extend name='public/base' /}
+
+{block name='seo'}
+<title>{$title|default='团队成员'}</title>
+<meta name="keywords" content="{$keywords|default='页面关键字'}">
+<meta name="description" content="{$desc|default='页面描述'}">
+{/block}
+
+{block name='content'}
+<div class="container" style="width: 960px; background-color: white; min-height: 600px;">
+	<div class="div_tips">
+	团队成员介绍（Team Member Introduction）
+	</div>
+	<div class="mt-5">
+		<div class="title">
+		<div class="team-members-title">
+		  <div class="team-members-title-head">
+			<span style="font-size: 16px; font-weight: bold;">副教授</span>
+		  </div>
+		</div>
+		</div>
+		<div class="info" style="border:1px solid #ccc; height: 145px; margin-bottom: 20px;">
+			{volist name="associate_professor" id="vo"}
+			<div class="showPointer" style="margin-right: 15px;">
+				<a href="/index/member/personal.html?id={$vo.id}" style="text-decoration:none;" target="_blank">
+					<div class="GUIImage">
+						<img height="100" width="80" src="__STATIC__/img/member/{$vo.photoname}">
+					</div>
+					<div class="GUIName" style="width:80px;color:#399;">
+						{$vo.name}
+					</div>
+					<div class="GUIName" style="font-size:11px;width:104px;color:#999999;margin-left:-12px;">
+						{$vo.spell}
+					</div>
+				</a>
+			</div>
+			{/volist}
+			<div style="clear: both"></div>
+		</div>
+		<div class="title">
+		<div class="team-members-title">
+		  <div class="team-members-title-head">
+			<span style="font-size: 16px; font-weight: bold;">硕士生</span>
+		  </div>
+		</div>
+		</div>
+		<div class="info" style="border:1px solid #ccc; height: 145px; margin-bottom: 20px;">
+			{volist name="master" id="vo"}
+			<div class="showPointer">
+				<a href="/index/member/personal.html?id={$vo.id}" style="text-decoration:none;" target="_blank">
+					<div class="GUIImage">
+						<img height="100" width="80" src="__STATIC__/img/member/{$vo.photoname}">
+					</div>
+					<div class="GUIName" style="width:80px;color:#399;">
+						{$vo.name}
+					</div>
+					<div class="GUIName" style="font-size:11px;width:104px;color:#999999;margin-left:-12px;">
+						{$vo.spell}
+					</div>
+				</a>
+			</div>
+			{/volist}
+			<div style="clear: both"></div>
+		</div>
+		<div class="title">
+		<div class="team-members-title">
+		  <div class="team-members-title-head">
+			<span style="font-size: 16px; font-weight: bold;">本科生</span>
+		  </div>
+		</div>
+		</div>
+		<div class="info" style="border:1px solid #ccc; height: 145px; margin-bottom: 20px;">
+			{volist name="bachelor" id="vo"}
+			<div class="showPointer">
+				<a href="/index/member/personal.html?id={$vo.id}" style="text-decoration:none;" target="_blank">
+					<div class="GUIImage">
+						<img height="100" width="80" src="__STATIC__/img/member/{$vo.photoname}">
+					</div>
+					<div class="GUIName" style="width:80px;color:#399;">
+						{$vo.name}
+					</div>
+					<div class="GUIName" style="font-size:11px;width:104px;color:#999999;margin-left:-12px;">
+						{$vo.spell}
+					</div>
+				</a>
+			</div>
+			{/volist}
+			<div style="clear: both"></div>
+		</div>
+	</div>
+</div>
+{/block}
+
+{block name='js'}
+<script type="text/javascript">
+$("#member").attr('class', 'active');
+$('.table-sort').dataTable({
+	"aaSorting": [[ 0, "desc" ]],//默认第几个排序
+	"bStateSave": false,//状态保存
+	"searching": false,//是否显示查询
+    "lengthChange": false,//是否使用下位列表选择分页大小
+	"iDisplayLength": 3,
+	"bInfo" : false, // 是否显示左下角记录数
+	"aoColumnDefs": [
+		//{"bVisible": false, "aTargets": [ 3 ]} //控制列的隐藏显示
+		{"orderable":false,"aTargets":[0]}// 不参与排序的列
+	]
+});
+$(".mt-5").Huifold({
+	titCell:'.title',
+	mainCell:'.info',
+	type:3,
+	trigger:'click',
+	className:"selected",
+	speed:"first",
+});
+</script>
+{/block}

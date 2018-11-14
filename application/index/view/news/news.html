@@ -1,0 +1,62 @@
+﻿{extend name='public/base' /}
+
+{block name='seo'}
+<title>{$title|default='页面标题'}</title>
+<meta name="keywords" content="{$keywords|default='页面关键字'}">
+<meta name="description" content="{$desc|default='页面描述'}">
+<style>
+.dataTables_wrapper .dataTables_paginate {
+	float:  none;
+	text-align: center;
+}
+</style>
+{/block}
+
+{block name='content'}
+<div class="container" style="width: 960px; background-color: white; min-height: 700px; padding:0 0 0 0;">
+	<div class="mt-15">
+		<div class="teamDiv">
+			<table class="table-sort">
+				{volist name="news" id="vo" key="k"}
+				<tr>
+				<td style="background-color: white;">
+				<div class="news" id="{$k}">
+					<h3>
+						<a>
+						{$vo.title}
+						</a>
+						{if condition="$k lt 4"}
+						<img src="__STATIC__/img/new_icon.gif">
+						{/if}
+					</h3>
+					<h4>{$vo.content}</h4>
+					<p>
+						<span class="ago"> 动态信息&nbsp;&nbsp;</span>|
+						<span class="ago"> 管理员&nbsp;&nbsp;</span>|
+						<span class="ago"> 发布时间&nbsp;&nbsp;{$vo.updatetime}</span>|
+					</p>
+				</div>
+				</td>
+				</tr>
+				{/volist}
+			</table>
+		</div>
+	</div>
+</div>
+{/block}
+
+{block name='js'}
+<script type="text/javascript">
+$('.table-sort').dataTable({
+	"bStateSave": true,//状态保存
+	"searching": false,//是否显示查询
+    "lengthChange": false,//是否使用下位列表选择分页大小
+	"iDisplayLength": 5,
+	"bInfo" : false, // 是否显示左下角记录数
+	"aoColumnDefs": [
+		//{"bVisible": false, "aTargets": [ 3 ]} //控制列的隐藏显示
+		{"orderable":false,"aTargets":[0]}// 不参与排序的列
+	]
+});
+</script>
+{/block}
