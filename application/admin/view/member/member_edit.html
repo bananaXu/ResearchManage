@@ -109,9 +109,9 @@
 <script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/messages_zh.js"></script>
 
 <script>
-document.getElementById("intro").value="{$member_info.intro}";
-document.getElementById("hobbies").value="{$member_info.hobbies}";
-document.getElementById("achievement").value="{$member_info.achievement}";
+document.getElementById("intro").value="<?php echo str_replace(PHP_EOL, '\r\n', $member_info['intro']);?>";
+document.getElementById("hobbies").value="<?php echo str_replace(PHP_EOL, '\r\n', $member_info['hobbies']);?>";
+document.getElementById("achievement").value="<?php echo str_replace(PHP_EOL, '\r\n', $member_info['achievement']);?>";
 </script>
 {/block}
 

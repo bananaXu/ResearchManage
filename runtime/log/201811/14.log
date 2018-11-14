@@ -272,3 +272,377 @@
 [ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000527s ]
 [ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000349s ]
 [ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000351s ]
+---------------------------------------------------------------
+[ 2018-11-14T14:55:57+08:00 ] 88.147.174.128 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001561s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000901s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000650s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[ 2018-11-14T14:57:02+08:00 ] 50.118.255.36 CONNECT www.alipay.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001329s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000726s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000365s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000359s ]
+---------------------------------------------------------------
+[ 2018-11-14T15:09:40+08:00 ] 205.205.150.14 HEAD /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001787s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000966s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000672s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000368s ]
+---------------------------------------------------------------
+[ 2018-11-14T15:39:01+08:00 ] 205.205.150.14 HEAD /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002590s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000861s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000649s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000356s ]
+---------------------------------------------------------------
+[ 2018-11-14T15:53:58+08:00 ] 78.140.32.146 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001685s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000655s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000588s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000508s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:01:38+08:00 ] 50.118.255.36 CONNECT www.baidu.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001823s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000920s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000619s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000357s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:01:58+08:00 ] 103.57.37.10 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001332s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000548s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000495s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000416s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:34:45+08:00 ] 50.118.255.36 CONNECT www.alipay.com:443
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001822s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000872s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000617s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000393s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:35:06+08:00 ] 202.114.144.233 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001691s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000546s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000375s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:35:27+08:00 ] 202.114.144.233 POST /admin/user/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001721s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.004501s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `name` = 'admin'  AND `password` = '21218cca77804d2ba1922c33e0151105' ) AND `user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000578s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `login_count`=`login_count`+1  WHERE  `id` = 1 [ RunTime:0.000526s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:35:28+08:00 ] 202.114.144.233 GET /admin/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001711s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000458s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:36:22+08:00 ] 202.114.144.233 GET /admin/member/memberlist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001786s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.003895s ]
+[ sql ] [ SQL ] SELECT * FROM `member` [ RunTime:0.000662s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:36:24+08:00 ] 202.114.144.233 POST /admin/member/memberadd.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.046891s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000477s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:36:24+08:00 ] 202.114.144.233 GET /admin/member/memberadd.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001674s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000427s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:38:34+08:00 ] 202.114.144.233 POST /admin/member/doAction
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001793s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.004309s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `photoname` = 'xuwj.jpg' LIMIT 1 [ RunTime:0.000562s ]
+[ sql ] [ SQL ] INSERT INTO `member` (`name` , `spell` , `education` , `sex` , `grade` , `direction` , `contact` , `intro` , `hobbies` , `achievement` , `photoname` , `updatetime`) VALUES ('许伟佳' , 'Xu Wei Jia' , 0 , '1' , '本科-14级计算机科学与技术' , '大数据' , '1316721141@qq.com' , '本人本科毕业于湖北大学，在本科期间，有幸得到余老师的指导，并加入其团队。在这期间，我获益良多。如今我在贵州大学读研究生，还时常感谢余老师对我的精心栽培。本人性格开朗，喜欢交朋友，打游戏，还有一切萌萌哒的东西。在技术方面，偏向算法理论，喜爱编程，编程使我快乐。' , '听音乐，打羽毛球，打游戏' , '2014-2015年度，湖北大学“优秀学生二等奖学金”，计算机与信息工程学院三好学生；\r\n2015-2016年度，湖北大学“优秀学生二等奖学金”，计算机与信息工程学院三好学生,科技创新奖学金，湖北省蓝桥杯二等奖；\r\n2016-2017年度，湖北大学“优秀学生二等奖学金”，计算机与信息工程学院三好学生,科技创新奖学金；\r\n2017-2018年度，湖北大学“优秀学生三等奖学金”\r\n' , 'xuwj.jpg' , '2018-11-14') [ RunTime:0.000566s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:38:39+08:00 ] 202.114.144.233 GET /admin/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001629s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000439s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:38:40+08:00 ] 202.114.144.233 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001782s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000552s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000375s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:38:41+08:00 ] 202.114.144.233 GET /index/dynamic/dynamic.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001728s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc [ RunTime:0.000546s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:38:44+08:00 ] 202.114.144.233 GET /index/member/member.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001526s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, name, spell, photoname from member where education = 2 and enable = 1 [ RunTime:0.000614s ]
+[ sql ] [ SQL ] select id, name, spell, photoname from member where education = 1 and enable = 1 [ RunTime:0.000539s ]
+[ sql ] [ SQL ] select id, name, spell, photoname from member where education = 0 and enable = 1 [ RunTime:0.000425s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:38:47+08:00 ] 202.114.144.233 GET /index/member/personal.html?id=17
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002579s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select name, spell, sex, grade, hobbies, intro, achievement, contact, direction, photoname
+									from member
+								   where id = 17 
+								     and enable = 1 [ RunTime:0.000567s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:39:07+08:00 ] 202.114.144.233 GET /admin/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001855s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000486s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:39:10+08:00 ] 202.114.144.233 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002241s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000697s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000448s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:39:16+08:00 ] 202.114.144.233 GET /admin/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001601s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000452s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:39:19+08:00 ] 202.114.144.233 GET /admin/member/memberlist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001607s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.004213s ]
+[ sql ] [ SQL ] SELECT * FROM `member` [ RunTime:0.000709s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:39:25+08:00 ] 202.114.144.233 GET /admin/member/memberedit/id/17.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001634s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.003896s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000549s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:39:25+08:00 ] 202.114.144.233 GET /admin/member/memberedit/id/17.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001304s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.003706s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000536s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:40:11+08:00 ] 202.114.144.233 GET /admin/member/memberlist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001752s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.004660s ]
+[ sql ] [ SQL ] SELECT * FROM `member` [ RunTime:0.000717s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:40:15+08:00 ] 202.114.144.233 GET /admin/member/memberedit/id/17.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.052193s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.004270s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000541s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:40:15+08:00 ] 202.114.144.233 GET /admin/member/memberedit/id/17.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001207s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.003949s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000646s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:40:42+08:00 ] 202.114.144.233 POST /admin/member/editmember.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002524s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select photoname from member where id = 17 [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.003783s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `photoname` = 'xuwj.jpg' LIMIT 1 [ RunTime:0.000569s ]
+[ sql ] [ SQL ] UPDATE `member`  SET `name`='许伟佳',`spell`='Xu Wei Jia',`education`=0,`sex`='1',`grade`='本科-14级计算机科学与技术',`direction`='大数据',`intro`='本人本科毕业于湖北大学，在本科期间，有幸得到余老师的指导，并加入其团队。在这期间，我获益良多。如今我在贵州大学读研究生，还时常感谢余老师对我的精心栽培。本人性格开朗，喜欢交朋友，打游戏，还有一切萌萌哒的东西。在技术方面，偏向算法理论，喜爱编程，编程使我快乐。',`contact`='1316721141@qq.com',`hobbies`='大数据',`achievement`='2014-2015年度，湖北大学“优秀学生二等奖学金”，计算机与信息工程学院三好学生；\r\n2015-2016年度，湖北大学“优秀学生二等奖学金”，计算机与信息工程学院三好学生,科技创新奖学金，湖北省蓝桥杯二等奖；\r\n2016-2017年度，湖北大学“优秀学生二等奖学金”，计算机与信息工程学院三好学生,科技创新奖学金；\r\n2017-2018年度，湖北大学“优秀学生三等奖学金”\r\n',`photoname`='xuwj.jpg',`updatetime`='2018-11-14'  WHERE  `id` = 17 [ RunTime:0.000788s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:40:45+08:00 ] 202.114.144.233 GET /admin/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001857s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000453s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:40:46+08:00 ] 202.114.144.233 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001587s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000527s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000340s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:40:48+08:00 ] 202.114.144.233 GET /index/task/task.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002543s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select t1.id, t1.title, t1.desc, t1.ctime, t1.state, t1.updater_id, t1.updatetime,
+									  t1.principal, t1.estimatedTime,
+								  (select name from user where t1.creator_id = id) as creator,
+								  (select CONCAT(filename, '.', filetype) from download where t1.resource_id = id) as resource
+							 from task as t1
+							where enable = 1 [ RunTime:0.001237s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:40:50+08:00 ] 202.114.144.233 GET /index/dynamic/dynamic.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001604s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc [ RunTime:0.000474s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:40:51+08:00 ] 202.114.144.233 GET /index/member/member.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001650s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select id, name, spell, photoname from member where education = 2 and enable = 1 [ RunTime:0.000529s ]
+[ sql ] [ SQL ] select id, name, spell, photoname from member where education = 1 and enable = 1 [ RunTime:0.000406s ]
+[ sql ] [ SQL ] select id, name, spell, photoname from member where education = 0 and enable = 1 [ RunTime:0.000415s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:40:54+08:00 ] 202.114.144.233 GET /index/member/personal.html?id=17
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001644s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select name, spell, sex, grade, hobbies, intro, achievement, contact, direction, photoname
+									from member
+								   where id = 17 
+								     and enable = 1 [ RunTime:0.000587s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:40:57+08:00 ] 202.114.144.233 GET /index/member/personal.html?id=17
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001634s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select name, spell, sex, grade, hobbies, intro, achievement, contact, direction, photoname
+									from member
+								   where id = 17 
+								     and enable = 1 [ RunTime:0.000589s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:42:28+08:00 ] 202.114.144.233 GET /index/member/personal.html?id=11
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001909s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select name, spell, sex, grade, hobbies, intro, achievement, contact, direction, photoname
+									from member
+								   where id = 11 
+								     and enable = 1 [ RunTime:0.000546s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:42:30+08:00 ] 202.114.144.233 GET /admin/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001623s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000455s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:42:33+08:00 ] 202.114.144.233 GET /admin/member/memberlist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002514s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.004060s ]
+[ sql ] [ SQL ] SELECT * FROM `member` [ RunTime:0.000654s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:42:35+08:00 ] 202.114.144.233 GET /admin/member/memberedit/id/11.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.045455s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.003542s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000538s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:42:35+08:00 ] 202.114.144.233 GET /admin/member/memberedit/id/11.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001454s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.003641s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000697s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:42:39+08:00 ] 202.114.144.233 GET /admin/member/memberedit/id/15.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.041057s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.003611s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000523s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:42:39+08:00 ] 202.114.144.233 GET /admin/member/memberedit/id/15.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001088s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.003764s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000491s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:43:03+08:00 ] 202.114.144.233 GET /admin/member/memberedit/id/17.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002561s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.004063s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000544s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:43:03+08:00 ] 202.114.144.233 GET /admin/member/memberedit/id/17.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001250s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.003901s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000574s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:43:17+08:00 ] 202.114.144.233 GET /admin/member/memberlist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001697s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.003687s ]
+[ sql ] [ SQL ] SELECT * FROM `member` [ RunTime:0.000676s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:43:25+08:00 ] 202.114.144.233 GET /admin/member/memberedit/id/17.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006038s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.003841s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000523s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:43:25+08:00 ] 202.114.144.233 GET /admin/member/memberedit/id/17.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001337s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.003671s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000555s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:46:20+08:00 ] 112.99.91.207 HEAD /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002782s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select title, content, updatetime from news where enable = 1 order by updatetime desc LIMIT 4 [ RunTime:0.000542s ]
+[ sql ] [ SQL ] select name, content, time from dynamic where enable = 1 order by time desc LIMIT 5 [ RunTime:0.000358s ]
+[ sql ] [ SQL ] select content from news where enable = 1 order by updatetime desc LIMIT 100 [ RunTime:0.000365s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:46:26+08:00 ] 202.114.144.233 GET /admin/member/memberlist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001713s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.004021s ]
+[ sql ] [ SQL ] SELECT * FROM `member` [ RunTime:0.000761s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:46:28+08:00 ] 202.114.144.233 POST /admin/member/memberadd.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.048120s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000459s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:46:28+08:00 ] 202.114.144.233 GET /admin/member/memberadd.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001394s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000388s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:46:31+08:00 ] 202.114.144.233 GET /admin/member/memberlist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002507s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.003619s ]
+[ sql ] [ SQL ] SELECT * FROM `member` [ RunTime:0.000653s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:46:33+08:00 ] 202.114.144.233 GET /admin/member/memberedit/id/17.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.041404s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.003651s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000516s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:46:33+08:00 ] 202.114.144.233 GET /admin/member/memberedit/id/17.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001104s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.003494s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000550s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:46:45+08:00 ] 202.114.144.233 GET /admin/member/memberlist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001602s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.003432s ]
+[ sql ] [ SQL ] SELECT * FROM `member` [ RunTime:0.000626s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:46:50+08:00 ] 202.114.144.233 GET /admin/member/memberedit/id/17.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.044236s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.003816s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000531s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:46:50+08:00 ] 202.114.144.233 GET /admin/member/memberedit/id/17.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001148s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.003964s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000507s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:47:10+08:00 ] 202.114.144.233 GET /admin/member/memberlist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002502s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.003740s ]
+[ sql ] [ SQL ] SELECT * FROM `member` [ RunTime:0.000667s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:47:15+08:00 ] 202.114.144.233 GET /admin/member/memberedit/id/17.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.047217s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.003801s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000516s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:47:15+08:00 ] 202.114.144.233 GET /admin/member/memberedit/id/17.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001220s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.003628s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000556s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:47:29+08:00 ] 202.114.144.233 GET /admin/member/memberlist.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.005243s ]
+[ sql ] [ SQL ] SELECT * FROM `member` [ RunTime:0.001209s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:47:34+08:00 ] 202.114.144.233 GET /admin/member/memberedit/id/17.html?id=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.050705s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.004276s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000599s ]
+---------------------------------------------------------------
+[ 2018-11-14T16:47:34+08:00 ] 202.114.144.233 GET /admin/member/memberedit/id/17.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001572s ] mysql:host=127.0.0.1;dbname=researchmanage;charset=utf8
+[ sql ] [ SQL ] select role from user where id = 1 [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.004327s ]
+[ sql ] [ SQL ] SELECT * FROM `member` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000573s ]
