@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:97:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\public/../application/admin\view\user\admin_list.html";i:1540900268;s:83:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\admin\view\public\base.html";i:1501913354;s:83:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\admin\view\public\meta.html";i:1538812279;s:85:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\admin\view\public\header.html";i:1539226549;s:83:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\admin\view\public\menu.html";i:1540897959;s:85:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\admin\view\public\footer.html";i:1540896626;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:97:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\public/../application/admin\view\user\admin_list.html";i:1541915148;s:83:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\admin\view\public\base.html";i:1501913354;s:83:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\admin\view\public\meta.html";i:1541999460;s:85:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\admin\view\public\header.html";i:1539226549;s:83:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\admin\view\public\menu.html";i:1541989646;s:85:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\admin\view\public\footer.html";i:1540896626;}*/ ?>
 <!--_meta 作为公共模版分离出去-->
 <!DOCTYPE HTML>
 <html>
@@ -8,8 +8,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
-<link rel="Bookmark" href="favicon.ico" >
-<link rel="Shortcut Icon" href="favicon.ico" />
+<link rel="Bookmark" href="/favicon.ico" >
+<link rel="Shortcut Icon" href="/favicon.ico" />
 <!--[if lt IE 9]>
 <script type="text/javascript" src="lib/html5.js"></script>
 <script type="text/javascript" src="lib/respond.min.js"></script>
@@ -107,6 +107,9 @@
                 <ul>				
                     <li><a href="<?php echo url('resource/resourceList'); ?>" title="资源列表">资源列表</a></li>
                 </ul>
+                <ul>				
+                    <li><a href="<?php echo url('resource/resourceCate'); ?>" title="分类列表">分类列表</a></li>
+                </ul>
             </dd>
         </dl>
 		
@@ -129,10 +132,28 @@
         </dl>
 		
         <dl id="menu-admin">
-            <dt><i class="Hui-iconfont">&#xe62d;</i> 管理员管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dt><i class="Hui-iconfont">&#xe6f1;</i> 链接管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>				
+                    <li><a href="<?php echo url('links/linksList'); ?>" title="链接列表">链接列表</a></li>
+                </ul>
+            </dd>
+        </dl>
+		
+        <dl id="menu-admin">
+            <dt><i class="Hui-iconfont">&#xe6f1;</i> 学科管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>				
+                    <li><a href="<?php echo url('subject/subjectList'); ?>" title="学科列表">学科列表</a></li>
+                </ul>
+            </dd>
+        </dl>
+		
+        <dl id="menu-admin">
+            <dt><i class="Hui-iconfont">&#xe62d;</i> 用户管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
             <dd>
                 <ul>
-                    <li><a href="<?php echo url('user/adminList'); ?>" title="管理员列表">管理员列表</a></li>
+                    <li><a href="<?php echo url('user/adminList'); ?>" title="管理员列表">用户列表</a></li>
                 </ul>
             </dd>
         </dl>
@@ -145,9 +166,9 @@
 <section class="Hui-article-box">
 	<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页
 		<span class="c-gray en">&gt;</span>
-		管理员管理
+		用户管理
 		<span class="c-gray en">&gt;</span>
-		管理员列表 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a> </nav>
+		用户列表 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a> </nav>
 	<div class="Hui-article">
 		<article class="cl pd-20">
 			<!--如果是admin显示用户数量,其它用户没必要显示-->
