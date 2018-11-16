@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:97:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\public/../application/admin\view\user\admin_list.html";i:1541915148;s:83:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\admin\view\public\base.html";i:1501913354;s:83:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\admin\view\public\meta.html";i:1541999460;s:85:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\admin\view\public\header.html";i:1539226549;s:83:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\admin\view\public\menu.html";i:1541989646;s:85:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\admin\view\public\footer.html";i:1540896626;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:6:{s:97:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\public/../application/admin\view\user\admin_list.html";i:1542187369;s:83:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\admin\view\public\base.html";i:1501913354;s:83:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\admin\view\public\meta.html";i:1541999460;s:85:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\admin\view\public\header.html";i:1539226549;s:83:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\admin\view\public\menu.html";i:1541989646;s:85:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\admin\view\public\footer.html";i:1540896626;}*/ ?>
 <!--_meta 作为公共模版分离出去-->
 <!DOCTYPE HTML>
 <html>
@@ -178,7 +178,7 @@
 					<a href="javascript:;" onclick="unDelete()" class="btn btn-danger radius">
 						<i class="Hui-iconfont">&#xe6e2;</i> 批量恢复</a>
 					<a href="javascript:;" onclick="admin_add('添加管理员','<?php echo url("user/adminAdd"); ?>','800','500')" class="btn btn-primary radius">
-					<i class="Hui-iconfont">&#xe600;</i> 添加管理员</a>
+					<i class="Hui-iconfont">&#xe600;</i> 添加用户</a>
 				</span>
 				<span class="r">共有数据：<strong><?php echo $count; ?></strong> 条</span>
 			</div>

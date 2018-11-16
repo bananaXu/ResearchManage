@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:98:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\public/../application/index\view\task\task_detail.html";i:1540957071;s:83:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\index\view\public\base.html";i:1539847680;s:83:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\index\view\public\meta.html";i:1539326641;s:85:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\index\view\public\header.html";i:1541158292;s:85:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\index\view\public\footer.html";i:1540963913;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:5:{s:98:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\public/../application/index\view\task\task_detail.html";i:1542024031;s:83:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\index\view\public\base.html";i:1539847680;s:83:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\index\view\public\meta.html";i:1541999379;s:85:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\index\view\public\header.html";i:1541906147;s:85:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\index\view\public\footer.html";i:1540963913;}*/ ?>
 <!--_meta 作为公共模版分离出去-->
 <!DOCTYPE HTML>
 <html>
@@ -8,8 +8,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
-<link rel="Bookmark" href="favicon.ico" >
-<link rel="Shortcut Icon" href="favicon.ico" />
+<link rel="Bookmark" href="/favicon.ico" >
+<link rel="Shortcut Icon" href="/favicon.ico" />
 <!--[if lt IE 9]>
 <script type="text/javascript" src="lib/html5.js"></script>
 <script type="text/javascript" src="lib/respond.min.js"></script>
@@ -60,9 +60,8 @@
 					<?php if(\think\Session::get('user_info.name') == ''): ?>
 					<li class="f-r"><a href="/admin/user/login.html" id="loginHref" style="color: white; margin-right: 15px;" target="_self" title="用户登录">Login</a></li>
 					<?php else: ?>
-					<li><a href="http://119.23.50.178:4000" target="_blank">交流中心</a></li>
 					<li><a href="javascript:;" onclick="admin_edit('密码修改','<?php echo url("/admin/user/adminEdit",["id"=>\think\Session::get('user_info.id')]); ?>','1','800','500')">修改密码</a></li>
-					<li class="f-r">欢迎&nbsp;&nbsp;<span style="color: #292421;"><?php echo \think\Session::get('user_info.name'); ?></span> <a href="<?php echo url('/admin/user/logout'); ?>" id="loginHref" style="color: white; margin-right: 15px;" target="_self" title="注销登录">Logout</a></li>
+					<li class="f-r">欢迎&nbsp;&nbsp;<span style="color: #292421;"><?php echo \think\Session::get('user_info.realname'); ?></span> <a href="<?php echo url('/admin/user/logout'); ?>" id="loginHref" style="color: white; margin-right: 15px;" target="_self" title="注销登录">Logout</a></li>
 					<?php endif; ?>
 				</ul>
 			</nav>
@@ -77,7 +76,7 @@
 		<div class="theme_contentPic" style="margin-top:5px; padding-top: 20px;padding-left: 10px;width: 960px;height: 250px;background: url('/static/img/head_bgd.png') no-repeat;">
 			<img src="/static/img/world.jpg" width="160px" height="160px" class="round" style="margin-left:380px;">
 			<div class="theme_contentTitle" style="margin-top:5px;+margin-top:20px;">
-				<div style="text-align: center;" title="社会计算研究组(Special Interest Group on Social Computing, SIGSC) " id="theme_contentName">
+				<div style="text-align: center;" title="大数据学习交流组(Big Data Learning And Communication Group, BDLACG) " id="theme_contentName">
 					大数据学习交流组(Big Data Learning And Communication Group, BDLACG) 
 				</div>
 				<div style="text-align: center; margin-top: 10px;color:#333;font-size:14px;background-color:#fff">
@@ -90,14 +89,15 @@
 		<div class="new_menu">
 			<div id="toTop"></div>
 			<div class="teamPanel_container">
-				<div><a href="/index/index/index.html">首页</a></div>
-				<div><a href="/index/member/member.html">成员介绍</a></div>
-				<div><a href="/index/production/production.html">成果展示</a></div>
+				<div><a href="/index/index/index.html" id="home">首页</a></div>
+				<div><a href="/index/member/member.html" id="member">成员介绍</a></div>
+				<div><a href="/index/production/production.html" id="production">成果展示</a></div>
 				<?php if(\think\Session::get('user_info.name') != ''): ?>
-				<div><a href="/index/dynamic/dynamic.html">成员动态</a></div>
-				<div><a href="/index/task/task.html">任务管理</a></div>
-				<div><a href="/index/download/download.html">资源共享</a></div>
-				<div><a href="/index/links/links.html">相关链接</a></div>
+				<div><a href="/index/dynamic/dynamic.html" id="dynamic">成员动态</a></div>
+				<div><a href="/index/task/task.html" id="task">任务管理</a></div>
+				<div><a href="/index/download/download.html" id="download">资源共享</a></div>
+				<div><a href="http://119.23.50.178:4000" target="_blank">交流中心</a></div>
+				<div><a href="/index/links/links.html" id="links">相关链接</a></div>
 				<?php endif; ?>
 			</div>
 		</div>
@@ -152,8 +152,8 @@
 						</td>
 						<td><?php echo substr($vo['updatetime'], 0, 16); ?></td>
 						<td class="td-manage">
-							<a title="下载" href="/index/task/downloadfile.html?filename=<?php echo $vo['resource']; ?>" class="text-decoration:none"><i class="Hui-iconfont">&#xe640;</i></a>&nbsp;&nbsp;
-							<a title="预览" href="javascript:;" onclick="Media('资料预览','/index/download/media/fileName/<?php echo str_replace(".".substr(strrchr($vo['resource'], '.'), 1),"",$vo['resource']);?>/fileType/<?php echo substr(strrchr($vo['resource'], '.'), 1); ?>','1','900','600')" class="text-decoration:none"><i class="Hui-iconfont">&#xe695;</i></a>
+							<a title="下载" href="/index/task/downloadfile.html?filename=<?php echo $vo['resource']; ?>" class="text-decoration:none" style="color: #333;"><i class="Hui-iconfont">&#xe640;</i></a>&nbsp;&nbsp;
+							<a title="预览" href="javascript:;"  style="color: #333;" onclick="Media('资料预览','/index/download/media/fileName/<?php echo str_replace(".".substr(strrchr($vo['resource'], '.'), 1),"",$vo['resource']);?>/fileType/<?php echo substr(strrchr($vo['resource'], '.'), 1); ?>','1','900','600')" class="text-decoration:none"><i class="Hui-iconfont">&#xe695;</i></a>
 						</td>
 					</tr>
 				<?php endforeach; endif; else: echo "" ;endif; ?>

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:96:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\public/../application/admin\view\user\admin_add.html";i:1541907727;s:83:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\admin\view\public\base.html";i:1501913354;s:83:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\admin\view\public\meta.html";i:1541999460;s:85:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\admin\view\public\footer.html";i:1540896626;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:96:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\public/../application/admin\view\user\admin_add.html";i:1542187334;s:83:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\admin\view\public\base.html";i:1501913354;s:83:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\admin\view\public\meta.html";i:1541999460;s:85:"C:\myphp_www\PHPTutorial\WWW\ResearchManage\application\admin\view\public\footer.html";i:1540896626;}*/ ?>
 <!--_meta 作为公共模版分离出去-->
 <!DOCTYPE HTML>
 <html>
@@ -48,7 +48,7 @@
         <div class="row cl">
             <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>用户名：</label>
             <div class="formControls col-xs-8 col-sm-9">
-                <input  type="text" class="input-text" value="" placeholder="用户名为3~15位" id="name" name="name">
+                <input type="text" class="input-text" value="" placeholder="用户名为3~15位" id="name" name="name">
             </div>
         </div>
         <div class="row cl">
@@ -60,7 +60,7 @@
         <div class="row cl">
             <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>真实姓名：</label>
             <div class="formControls col-xs-8 col-sm-9">
-                <input type="password" class="input-text" autocomplete="off" value=""  placeholder="姓名为3~15位" id="realname" name="realname">
+                <input type="text" class="input-text" value=""  placeholder="姓名为3~15位" id="realname" name="realname">
             </div>
         </div>
         <div class="row cl">
