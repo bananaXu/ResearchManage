@@ -64,7 +64,8 @@ class User extends Base
                 //创建2个session,用来检测用户登陆状态和防止重复登陆
                 Session::set('user_id', $user -> id);
                 Session::set('user_info', $user -> getData());
-
+				// 更新登录时间
+				UserModel::update(['login_time'=>time()],['id'=> $user -> id]);
                 //更新用户登录次数:自增1
                 $user -> setInc('login_count');
 				

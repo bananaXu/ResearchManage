@@ -37,7 +37,7 @@ class Download extends Base
 		}
 		
 		// 获取分类信息，将分类信息拼成html传到前台
-		$cate = Db::query('select id, category from res_cat where enable = 1'); // 所有大分类
+		$cate = Db::query('select id, category from res_cat where enable = 1 order by id desc'); // 所有大分类
 		$html = "<ul id=\"myTab\" class=\"nav nav-tabs\">";
 		// 循环大分类，拼成头部
 		foreach ($cate as $c => $v)
@@ -59,7 +59,7 @@ class Download extends Base
 			else
 				$html .= "<div class=\"tab-pane fade\" id=\"cate".$c."\">";
 			// 获取子类
-			$cate_dtl = Db::query('select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = '.$v['id']);
+			$cate_dtl = Db::query('select id, cat_dtl from res_cat_dtl where enable = 1 and cat_id = '.$v['id'].' order by id desc');
 			$html .= "<ul>";
 			foreach ($cate_dtl as $va)
 			{
@@ -290,7 +290,12 @@ class Download extends Base
 	// 批量下载
 	public function downloadfiles()
 	{
-		$data = $_POST['id']; // 获取传来的id
+		if (isset($_POST['id']))
+		{
+			$data = $_POST['id']; // 获取传来的id
+		}
+		else
+			return;
 		
 		$zipName = 'upload/tmp.zip';
 		$zip = new \ZipArchive;
@@ -346,12 +351,21 @@ class Download extends Base
 			return;
 		}
 		
+		// 文件为caj这种bt格式，并且不存在pdf版
+		$pdfName = "upload/".$fileName.'.pdf';
+		$pdfName = iconv("UTF-8", "gbk", $pdfName);
+		if ($fileType == 'caj' && !file_exists($pdfName))
+		{
+			echo "暂不支持caj格式预览！";
+			return;
+		}
+		
 		$this->view->fileName = $fileName;
 		
 		$fileName = iconv('UTF-8','GBK',$fileName);
 		$media = ["aif", "aiff", "aac", "au", "bmp", "gsm", "mov", "mid", "midi", "mpg", "mpeg", "mp4", "m4a", "psd", "qt", "qtif", "qif", "qti", "snd", "tif", "tiff", "wav", "3g2", "3pg", "flv", "mp3", "swf", "asx", "asf", "avi", "wma", "wmv", "ra", "ram", "rm", "rpm", "rv", "smi", "smil", "xaml", "html", "pdf"];
 		// 不是媒体文件且不存在pdf文件，转换出一个对应pdf文件提供预览
-		if (!in_array($fileType, $media) && !file_exists("upload/".$fileName.".pdf")) 
+		if (!in_array($fileType, $media) && !file_exists($pdfName)) 
 		{
 			$file=str_replace("\\","/", ROOT_PATH);
 			$doc_file =  "file:///".$file."public/upload/".$fileName.".".$fileType;

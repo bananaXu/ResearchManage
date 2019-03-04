@@ -47,13 +47,13 @@
 		<table class="table table-border table-bordered table-bg table-hover table-sort">
 			<thead>
 				<tr class="text-c">
-					<th width="40"><input type="checkbox" id = "allChecks" name="" value="" onclick="ckAll()"></th>
-					<th width="50">ID</th>
-					<th width="130">资源名称</th>
-					<th width="130">来源</th>
-					<th width="200">标签</th>
-					<th width="100">上传时间</th>
-					<th width="60">操作</th>
+					<th style="width: 25px"><input type="checkbox" id = "allChecks" name="" value="" onclick="ckAll()"></th>
+					<th style="width: 40px">ID</th>
+					<th style="width: 230px">资源名称</th>
+					<th style="width: 146px">来源</th>
+					<th style="width: 231px">标签</th>
+					<th style="width: 90px">上传时间</th>
+					<th style="width: 48px">操作</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -93,6 +93,7 @@ $('.table-sort').dataTable({
 	"searching": false,//是否显示查询
     "lengthChange": false,//是否使用下位列表选择分页大小	
 	"iDisplayLength": 15,
+	"autoWidth": false,
 	"aoColumnDefs": [
 		//{"bVisible": false, "aTargets": [ 3 ]} //控制列的隐藏显示
 		{"orderable":false,"aTargets":[0, 6]}// 不参与排序的列
@@ -168,11 +169,11 @@ function getAjaxData(){
 		dataType: 'json',
 		success: function(data){
 			let temp = eval(data);
-			let html ="<table class='table table-border table-bordered table-bg table-hover table-sort'><thead><tr class='text-c'><th width='40'><input type='checkbox' id = 'allChecks' name='' value='' onclick='ckAll()'></th><th width='50'>ID</th><th width='130'>资源名称</th><th width='130'>来源</th><th width='200'>标签</th><th width='100'>上传时间</th><th width='60'>操作</th></thead><tbody>";
+			let html ="<table class='table table-border table-bordered table-bg table-hover table-sort'><thead><tr class='text-c'><th style='width: 25px'><input type='checkbox' id = 'allChecks' name='' value='' onclick='ckAll()'></th><th style='width: 40px'>ID</th><th style='width: 230px'>资源名称</th><th style='width: 146px'>来源</th><th style='width: 231px'>标签</th><th style='width: 90px'>上传时间</th><th style='width: 48px'>操作</th></tr></thead><tbody>";
 			let endHtml = "</tbody></table><form action='' method='post' id='downloadfilesform' style='display:none'><input type='hidden' name='files' id='downloadfilesfiles' value='upload/tmp.zip' /></form>";
 			for(var i = 0; i < temp.length; i ++){
 				let tempHtml = 
-				"<tr class='text-c'><td><input type='checkbox' value='"+temp[i]["filename"]+temp[i]["filetype"]+"' name='check'></td><td>"+temp[i]['id']+"</td><td><a class='size-MINI' temp-toggle='tooltip' temp-placement='right' title='"+temp[i]["description"]+"'> "+temp[i]["filename"]+"</a></td><td>"+temp[i]["source"]+"</td><td>"+temp[i]["labels"]+"</td><td>"+temp[i]["uploadtime"]+"</td><td><a title='下载' href='downloadfile?filename=upload/"+temp[i]["filename"]+temp[i]["filetype"]+"' class='text-decoration:none'><i class='Hui-iconfont'>&#xe640;</i></a>&nbsp;&nbsp;<a title='预览' href='javascript:;' onclick=\"Media('资料预览','/index/download/media/fileName/"+temp[i]["filename"]+"/fileType/"+temp[i]["filetype"]+"','1','900','600')\" class='text-decoration:none'><i class='Hui-iconfont'>&#xe695;</i></a></td></tr>";
+				"<tr class='text-c'><td><input type='checkbox' value='"+temp[i]["filename"]+temp[i]["filetype"]+"' name='check'></td><td>"+temp[i]['id']+"</td><td><a class='size-MINI' data-toggle='tooltip' data-placement='right' title='"+temp[i]["description"]+"'> "+temp[i]["filename"]+"</a></td><td>"+temp[i]["source"]+"</td><td>"+temp[i]["labels"]+"</td><td>"+temp[i]["uploadtime"]+"</td><td><a title='下载' href='downloadfile?filename=upload/"+temp[i]["filename"]+temp[i]["filetype"]+"' class='text-decoration:none'><i class='Hui-iconfont'>&#xe640;</i></a>&nbsp;&nbsp;<a title='预览' href='javascript:;' onclick=\"Media('资料预览','/index/download/media/fileName/"+temp[i]["filename"]+"/fileType/"+temp[i]["filetype"]+"','1','900','600')\" class='text-decoration:none'><i class='Hui-iconfont'>&#xe695;</i></a></td></tr>";
 				html+=tempHtml;
 			}
 			
@@ -185,6 +186,7 @@ function getAjaxData(){
 				"searching": false,//是否显示查询
 				"lengthChange": false,//是否使用下位列表选择分页大小
 				"iDisplayLength": 15,
+				"autoWidth": false,
 				"aoColumnDefs": [
 					{"orderable":false,"aTargets":[0, 6]}// 不参与排序的列
 				]
